@@ -246,7 +246,7 @@ internal fun ArchiveScreen() {
 @Composable
 internal fun Root() {
     var tab by remember { mutableIntStateOf(0) }
-    val tabs = listOf("✦" to "Visioni", "◎" to "Radar", "★" to "Watchlist", "⇄" to "Collegamenti", "▤" to "Archivio")
+    val tabs = listOf("✦" to "Visioni", "◎" to "Radar", "＋" to "Sezioni", "★" to "Watch", "⇄" to "Mappa", "▤" to "Archivio")
     Scaffold(bottomBar = {
         NavigationBar {
             tabs.forEachIndexed { i, (icon, label) ->
@@ -258,8 +258,9 @@ internal fun Root() {
             when (tab) {
                 0 -> VisionsScreen()
                 1 -> RadarApp()
-                2 -> WatchlistScreen()
-                3 -> LinksScreen()
+                2 -> SectionsScreen()
+                3 -> WatchlistScreen()
+                4 -> LinksScreen()
                 else -> ArchiveScreen()
             }
         }

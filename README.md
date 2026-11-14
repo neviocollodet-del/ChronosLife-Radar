@@ -21,3 +21,10 @@ L'Action giornaliera genera `visions/<data>.json` (+ `latest.json`, `index.json`
 - Verifica: dopo 30/90 giorni si ricontrolla se un argomento "in crescita" e' cresciuto di almeno il 15%.
 - App: tab Visioni, Radar, Watchlist (con note), Collegamenti, Archivio (con verifica).
 Chiave gratuita: https://aistudio.google.com/apikey -> Settings > Secrets and variables > Actions > New repository secret `GEMINI_API_KEY`.
+
+## Sezioni personalizzate, icona e APK (M5)
+- Tab **Sezioni**: aggiungi un settore con un titolo (e argomenti facoltativi); l'app lo analizza subito dal telefono con fonti
+  gratuite (Hacker News per il Momentum, Google News per i titoli), senza server. Salvate sul telefono; gli argomenti si possono mettere in Watchlist.
+- Icona adaptive Material: radar giallo su sfondo blu con "Cronos" (generata da script, vedi `android/app/src/main/res/mipmap-*`).
+- APK: artefatto **CronosLife-Radar** (file `CronosLife-Radar.apk`). Firmato con una chiave di debug fissa (`android/app/debug.keystore`,
+  password di debug pubblica): cosi' ogni nuova versione si installa sopra la precedente senza disinstallare.

@@ -1,6 +1,7 @@
 plugins { id("com.android.application"); id("org.jetbrains.kotlin.android"); id("org.jetbrains.kotlin.plugin.compose") }
 android { namespace = "com.chronoslife.radar"; compileSdk = 35
  defaultConfig { applicationId = "com.chronoslife.radar"; minSdk = 24; targetSdk = 35; versionCode = 1; versionName = "0.1.0" }
+ signingConfigs { getByName("debug") { storeFile = file("debug.keystore"); storePassword = "android"; keyAlias = "androiddebugkey"; keyPassword = "android" } }
  buildFeatures { compose = true; buildConfig = true }
  buildTypes {
   getByName("debug") { buildConfigField("String", "API_BASE_URL", "\"https://raw.githubusercontent.com/neviocollodet-del/chronoslife-radar/data\"") }

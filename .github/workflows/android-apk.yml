@@ -2,7 +2,7 @@ name: Build ChronosLife Radar APK
 
 on:
   push:
-    branches: [main, m2-momentum-watchlist, m4-visions]
+    branches: [main, m5-sections]
   workflow_dispatch:
 
 jobs:
@@ -32,9 +32,11 @@ jobs:
       - name: Build debug APK
         working-directory: android
         run: gradle --no-daemon --stacktrace assembleDebug
+      - name: Rename APK
+        run: mkdir -p dist && cp android/app/build/outputs/apk/debug/app-debug.apk dist/CronosLife-Radar.apk
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: ChronosLife-Radar-debug
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          name: CronosLife-Radar
+          path: dist/CronosLife-Radar.apk
           if-no-files-found: error
