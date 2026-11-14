@@ -3,8 +3,8 @@ android { namespace = "com.chronoslife.radar"; compileSdk = 35
  defaultConfig { applicationId = "com.chronoslife.radar"; minSdk = 24; targetSdk = 35; versionCode = 1; versionName = "0.1.0" }
  buildFeatures { compose = true; buildConfig = true }
  buildTypes {
-  getByName("debug") { buildConfigField("String", "API_BASE_URL", "\"http://10.0.2.2:8000\"") }
-  getByName("release") { buildConfigField("String", "API_BASE_URL", "\"https://api.example.invalid\"") }
+  getByName("debug") { buildConfigField("String", "API_BASE_URL", "\"https://raw.githubusercontent.com/neviocollodet-del/chronoslife-radar/data\"") }
+  getByName("release") { buildConfigField("String", "API_BASE_URL", "\"https://raw.githubusercontent.com/neviocollodet-del/chronoslife-radar/data\"") }
  }
  compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
  kotlinOptions { jvmTarget = "17" }
