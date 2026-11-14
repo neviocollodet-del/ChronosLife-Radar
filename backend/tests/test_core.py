@@ -40,7 +40,7 @@ def test_trends_count_sources_and_window():
     assert top["AI agent"]["evidence_count"] == 2
     assert top["AI agent"]["independent_source_labels"] == 2
     assert t["data_status"] == "insufficient"  # < 20 item: nessuna conclusione
-    assert all(i["score_status"] == "non disponibile" for i in t["items"])
+    assert all(i["momentum"] is None for i in t["items"])  # 2 evidenze: troppo poche
     assert trends.compute_trends(db, "ai-tech", 1, now=n + 400 * 86400)["items"] == []
 
 
@@ -53,3 +53,22 @@ def test_ingest_all_survives_failing_feed():
     rep = ingest.ingest_all(db, fetcher=fetcher, now=NOW)
     assert rep["arxiv-cs-ai"].startswith("errore")
     assert isinstance(rep["huggingface-blog"], int)
+
+
+def _mk(db, source, n_recent, n_prev, now, kw="AI agent"):
+    items = [{"title": f"{kw} r{i}", "summary": "", "link": f"{source}/r{i}", "published": now - 86400} for i in range(n_recent)]
+    items += [{"title": f"{kw} p{i}", "summary": "", "link": f"{source}/p{i}", "published": now - 80 * 86400} for i in range(n_prev)]
+    ingest.store(db, "ai-tech", source, items)
+
+
+def test_momentum_formula_and_thresholds():
+    db = ingest.connect(":memory:")
+    _mk(db, "s1", 4, 1, NOW)
+    _mk(db, "s2", 3, 0, NOW)
+    t = {i["topic"]: i for i in trends.compute_trends(db, "ai-tech", 90, now=NOW)["items"]}["AI agent"]
+    assert (t["recent_count"], t["previous_count"]) == (7, 1)
+    assert t["momentum"] == 75 and t["score_status"] == "ok"   # (7-1)/8*100
+    db2 = ingest.connect(":memory:")
+    _mk(db2, "s1", 6, 0, NOW)  # una sola fonte: niente score
+    t2 = trends.compute_trends(db2, "ai-tech", 90, now=NOW)["items"][0]
+    assert t2["momentum"] is None and t2["score_status"] == "dati insufficienti"
