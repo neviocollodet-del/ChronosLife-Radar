@@ -21,6 +21,8 @@ jobs:
             mkdir data-out && git -C data-out init -q -b data && git -C data-out remote add origin "$URL"
           fi
       - name: Collect and compute
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: cd backend && python -m app.publish ../data-out
       - name: Publish
         run: |

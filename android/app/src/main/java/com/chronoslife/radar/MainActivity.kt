@@ -50,12 +50,12 @@ private suspend fun loadTrends(sector: String, days: Int): RadarState = withCont
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent { MaterialTheme { RadarApp() } }
+        setContent { MaterialTheme { Root() } }
     }
 }
 
 @Composable
-private fun RadarApp() {
+internal fun RadarApp() {
     var selected by remember { mutableIntStateOf(0) }
     var days by remember { mutableIntStateOf(90) }
     var refresh by remember { mutableIntStateOf(0) }
