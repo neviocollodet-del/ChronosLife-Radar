@@ -29,13 +29,13 @@ private sealed interface RadarState {
 
 private suspend fun loadTrends(sector: String, days: Int): RadarState = withContext(Dispatchers.IO) {
     try {
-        val endpoint = "${BuildConfig.API_BASE_URL}/v1/trends?sector_id=$sector&window_days=$days"
+        val endpoint = "${BuildConfig.API_BASE_URL}/trends/$sector-$days.json"
         val connection = URL(endpoint).openConnection() as HttpURLConnection
         connection.connectTimeout = 8000
         connection.readTimeout = 8000
         connection.requestMethod = "GET"
         try {
-            if (connection.responseCode != 200) return@withContext RadarState.Failed("Server HTTP ${connection.responseCode}")
+            if (connection.responseCode != 200) return@withContext RadarState.Failed(if (connection.responseCode == 404) "Dati non ancora pubblicati" else "Server HTTP ${connection.responseCode}")
             val json = JSONObject(connection.inputStream.bufferedReader().use { it.readText() })
             val array = json.getJSONArray("items")
             val trends = (0 until array.length()).map { i ->
@@ -92,9 +92,9 @@ private fun RadarApp() {
             when (val result = state) {
                 RadarState.Loading -> { CircularProgressIndicator(); Text("Caricamento evidenze…") }
                 is RadarState.Failed -> {
-                    Text("Backend non raggiungibile", color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.titleMedium)
+                    Text("Dati non raggiungibili", color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.titleMedium)
                     Text(result.message)
-                    Text("Avvia il backend FastAPI e verifica l'indirizzo API. Nell'emulatore Android: 10.0.2.2; sul telefono: IP LAN del PC.")
+                    Text("Controlla la connessione. I dati si aggiornano una volta al giorno e non serve nessun PC acceso.")
                 }
                 is RadarState.Ready -> {
                     val shown = if (onlyWatch) result.trends.filter { "${sectors[selected].id}:${it.topic}" in watch } else result.trends

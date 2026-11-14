@@ -13,6 +13,10 @@ def _pattern(keyword: str):
     return re.compile(r"(?<!\w)" + re.escape(keyword) + r"(?!\w)", re.IGNORECASE)
 
 
+def matched_keywords(sector_id: str, text: str):
+    return [kw for kw in SECTORS[sector_id]["keywords"] if _pattern(kw).search(text)]
+
+
 def compute_trends(db, sector_id: str, window_days: int, now=None, limit: int = 20):
     cfg = SECTORS[sector_id]
     now = now or int(time.time())

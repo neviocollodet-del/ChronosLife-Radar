@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 from .sectors import SECTORS
+from .trends import matched_keywords
 
 SCHEMA = """CREATE TABLE IF NOT EXISTS items(
   id TEXT PRIMARY KEY, sector_id TEXT NOT NULL, source TEXT NOT NULL,
@@ -69,9 +70,16 @@ def parse_feed(xml_bytes: bytes, now: int):
     return out
 
 
-def store(db, sector_id: str, source: str, items) -> int:
+def store(db, sector_id: str, source: str, items, compact: bool = False) -> int:
+    """compact=True: tiene solo le notizie che citano una parola chiave del settore, salvando titolo breve
+    e le parole chiave trovate (il conteggio dei trend non cambia, l'archivio resta piccolo)."""
     n = 0
     for it in items:
+        if compact:
+            kws = matched_keywords(sector_id, it["title"] + " " + it["summary"])
+            if not kws:
+                continue
+            it = {**it, "title": it["title"][:140], "summary": " ".join(kws)}
         iid = hashlib.sha1(f"{source}|{it['link'] or it['title']}".encode()).hexdigest()
         cur = db.execute("INSERT OR IGNORE INTO items VALUES(?,?,?,?,?,?,?)",
                          (iid, sector_id, source, it["title"], it["summary"], it["link"], it["published"]))
@@ -86,14 +94,14 @@ def fetch(url: str) -> bytes:
         return r.read()
 
 
-def ingest_all(db, fetcher=fetch, now=None):
+def ingest_all(db, fetcher=fetch, now=None, compact: bool = False):
     """Ritorna {fonte: nuovi_item | 'errore: ...'}. Una fonte che fallisce non blocca le altre."""
     now = now or int(time.time())
     report = {}
     for sid, cfg in SECTORS.items():
         for source, url in cfg["feeds"]:
             try:
-                report[source] = store(db, sid, source, parse_feed(fetcher(url), now))
+                report[source] = store(db, sid, source, parse_feed(fetcher(url), now), compact)
             except Exception as e:
                 report[source] = f"errore: {e}"
     return report
