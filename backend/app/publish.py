@@ -4,7 +4,7 @@ Uso: python -m app.publish DIRECTORY_DATI"""
 import json, sys, time
 from pathlib import Path
 
-from . import ingest, trends
+from . import history, ingest, trends
 from .sectors import SECTORS
 
 WINDOWS = (30, 90, 365)
@@ -21,7 +21,7 @@ def _load(db, f: Path):
         db.commit()
 
 
-def run(out_dir, now=None, fetcher=ingest.fetch):
+def run(out_dir, now=None, fetcher=ingest.fetch, hn_fetcher=None):
     now = now or int(time.time())
     out = Path(out_dir)
     (out / "trends").mkdir(parents=True, exist_ok=True)
@@ -32,9 +32,13 @@ def run(out_dir, now=None, fetcher=ingest.fetch):
                       (now - RETENTION_DAYS * 86400,)).fetchall()
     (out / "items.jsonl").write_text(
         "".join(json.dumps(dict(zip(COLS, r)), ensure_ascii=False) + "\n" for r in rows), encoding="utf-8")
+    extra, hn_report = ({}, "non attivo")
+    if hn_fetcher:
+        extra, hn_report = history.collect(now, WINDOWS, hn_fetcher, pause=0.2)
+    report["hackernews"] = hn_report
     for sid in SECTORS:
         for days in WINDOWS:
-            data = trends.compute_trends(db, sid, days, now=now)
+            data = trends.compute_trends(db, sid, days, now=now, extra=extra)
             (out / "trends" / f"{sid}-{days}.json").write_text(
                 json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / "status.json").write_text(json.dumps({"updated": now, "sources": report}, ensure_ascii=False, indent=1))
@@ -42,4 +46,4 @@ def run(out_dir, now=None, fetcher=ingest.fetch):
 
 
 if __name__ == "__main__":
-    print(json.dumps(run(sys.argv[1]), indent=2, ensure_ascii=False))
+    print(json.dumps(run(sys.argv[1], hn_fetcher=ingest.fetch), indent=2, ensure_ascii=False))

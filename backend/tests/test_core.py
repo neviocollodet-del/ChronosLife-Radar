@@ -72,3 +72,26 @@ def test_momentum_formula_and_thresholds():
     _mk(db2, "s1", 6, 0, NOW)  # una sola fonte: niente score
     t2 = trends.compute_trends(db2, "ai-tech", 90, now=NOW)["items"][0]
     assert t2["momentum"] is None and t2["score_status"] == "dati insufficienti"
+
+
+def test_history_extra_enables_momentum_and_is_skipped_when_ambiguous():
+    from app import history
+    db = ingest.connect(":memory:")
+    ingest.store(db, "ai-tech", "s1", [{"title": "AI agent x", "summary": "", "link": "l1", "published": NOW - 86400}])
+    t = trends.compute_trends(db, "ai-tech", 90, now=NOW, extra={("ai-tech", "AI agent", 90): (30, 10)})
+    it = {i["topic"]: i for i in t["items"]}["AI agent"]
+    assert (it["recent_count"], it["previous_count"], it["independent_source_labels"]) == (31, 10, 2)
+    assert it["momentum"] == round(100 * 21 / 41) and it["score_status"] == "ok"
+    calls = []
+    def fake(url):
+        calls.append(url); return b'{"nbHits": 7}'
+    out, rep = history.collect(NOW, (30,), fake)
+    assert out[("ai-tech", "AI agent", 30)] == (7, 7) and rep["errori"] == 0
+    assert ("ai-tech", "RAG", 30) not in out   # parola ambigua esclusa
+
+
+def test_history_errors_do_not_break():
+    from app import history
+    def boom(url): raise OSError("x")
+    out, rep = history.collect(NOW, (30,), boom)
+    assert out == {} and rep["errori"] > 0

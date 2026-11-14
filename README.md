@@ -9,5 +9,7 @@ L'app li legge da raw.githubusercontent.com: nessun PC o server acceso, costo ze
     python -m app.publish /tmp/dati            # prova locale dell'aggiornamento
 
 Settori, parole chiave e feed: `backend/app/sectors.py`. Momentum Score: (evidenze recenti - precedenti) / totale x 100
-su due meta' della finestra; `null` sotto 5 evidenze o 2 fonti. L'archivio tiene solo le notizie che citano una
+su due meta' della finestra; `null` sotto 5 evidenze o 2 fonti. Dal M3b i conteggi includono anche Hacker News (API gratuita con storico): per ogni parola non ambigua si contano
+le storie nella meta' recente e in quella precedente, cosi' il Momentum esiste dal primo giorno (fonte aggiuntiva, `hackernews` in `status.json`).
+L'archivio tiene solo le notizie che citano una
 parola chiave (`items_scanned` conta quelle). Il server FastAPI (`app/main.py`) resta per uso locale/sviluppo.

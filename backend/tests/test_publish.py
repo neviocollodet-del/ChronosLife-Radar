@@ -26,5 +26,5 @@ def test_publish_writes_files_and_is_idempotent(tmp_path):
 def test_publish_survives_all_feeds_down(tmp_path):
     def down(url): raise OSError("offline")
     rep = publish.run(tmp_path, now=NOW, fetcher=down)
-    assert all(str(v).startswith("errore") for v in rep.values())
+    assert all(str(v).startswith("errore") for k, v in rep.items() if k != "hackernews")
     assert (tmp_path / "trends" / "ai-tech-90.json").exists()

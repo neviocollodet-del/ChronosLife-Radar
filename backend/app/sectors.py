@@ -32,3 +32,6 @@ SECTORS = {
                      "running shoe", "training load", "recovery", "sensor", "GPS"],
     },
 }
+
+# Parole troppo ambigue per la ricerca a testo libero su Hacker News (darebbero conteggi falsati).
+HN_SKIP = {"RAG", "SAP", "ERP", "GPS", "sensor", "recovery", "reasoning", "automation", "tariff"}
