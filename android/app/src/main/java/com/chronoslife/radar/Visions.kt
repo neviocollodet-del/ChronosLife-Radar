@@ -130,13 +130,15 @@ private fun DayList(day: Day, store: Store, header: String) {
 // ---------- schermate ----------
 @Composable
 internal fun VisionsScreen() {
-    val store = remember { Store(LocalContext.current.applicationContext) }
+    val appCtx = LocalContext.current.applicationContext
+    val store = remember { Store(appCtx) }
     Remote("visions/latest.json", ::parseDay) { DayList(it, store, "Visioni di oggi") }
 }
 
 @Composable
 internal fun WatchlistScreen() {
-    val store = remember { Store(LocalContext.current.applicationContext) }
+    val appCtx = LocalContext.current.applicationContext
+    val store = remember { Store(appCtx) }
     val keys = remember { store.watch().sorted() }
     LazyColumn(Modifier.fillMaxSize().padding(horizontal = 16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         item { Text("Watchlist e note", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(top = 16.dp)) }
@@ -188,7 +190,8 @@ private data class IndexRow(val date: String, val headlines: List<String>)
 
 @Composable
 internal fun ArchiveScreen() {
-    val store = remember { Store(LocalContext.current.applicationContext) }
+    val appCtx = LocalContext.current.applicationContext
+    val store = remember { Store(appCtx) }
     var selected by remember { mutableStateOf<String?>(null) }
     val sel = selected
     if (sel != null) {
