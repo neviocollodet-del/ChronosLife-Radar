@@ -1,12 +1,20 @@
 {
- "updated": 1794833302,
+ "updated": 1794871554,
  "sources": {
-  "arxiv-cs-ai": 84,
-  "arxiv-cs-ro": 25,
+  "arxiv-cs-ai": 0,
+  "arxiv-cs-ro": 0,
   "huggingface-blog": 33,
-  "supplychaindive": 2,
+  "supplychaindive": 0,
   "manufacturingdive": 0,
   "dcrainmaker": 0,
-  "sciencedaily-sports": 1
+  "sciencedaily-sports": 0,
+  "hackernews": {
+   "ok": 60,
+   "errori": 0
+  },
+  "visioni": {
+   "gemini": 0,
+   "regole": 6
+  }
  }
 }

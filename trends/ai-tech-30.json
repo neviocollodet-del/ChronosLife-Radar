@@ -5,6 +5,33 @@
  "items_scanned": 112,
  "items": [
   {
+   "topic": "agentic",
+   "evidence_count": 307,
+   "independent_source_labels": 4,
+   "recent_count": 168,
+   "previous_count": 139,
+   "momentum": 9,
+   "score_status": "ok"
+  },
+  {
+   "topic": "AI agent",
+   "evidence_count": 238,
+   "independent_source_labels": 2,
+   "recent_count": 111,
+   "previous_count": 127,
+   "momentum": -7,
+   "score_status": "ok"
+  },
+  {
+   "topic": "robotics",
+   "evidence_count": 67,
+   "independent_source_labels": 3,
+   "recent_count": 45,
+   "previous_count": 22,
+   "momentum": 34,
+   "score_status": "ok"
+  },
+  {
    "topic": "reasoning",
    "evidence_count": 41,
    "independent_source_labels": 2,
@@ -14,48 +41,30 @@
    "score_status": "ok"
   },
   {
-   "topic": "agentic",
-   "evidence_count": 29,
+   "topic": "fine-tuning",
+   "evidence_count": 37,
    "independent_source_labels": 3,
    "recent_count": 29,
-   "previous_count": 0,
-   "momentum": 100,
+   "previous_count": 8,
+   "momentum": 57,
    "score_status": "ok"
   },
   {
    "topic": "multimodal",
-   "evidence_count": 22,
-   "independent_source_labels": 3,
-   "recent_count": 21,
-   "previous_count": 1,
-   "momentum": 91,
-   "score_status": "ok"
-  },
-  {
-   "topic": "fine-tuning",
-   "evidence_count": 20,
-   "independent_source_labels": 2,
-   "recent_count": 20,
-   "previous_count": 0,
-   "momentum": 100,
-   "score_status": "ok"
-  },
-  {
-   "topic": "robotics",
-   "evidence_count": 13,
-   "independent_source_labels": 2,
-   "recent_count": 13,
-   "previous_count": 0,
-   "momentum": 100,
+   "evidence_count": 37,
+   "independent_source_labels": 4,
+   "recent_count": 24,
+   "previous_count": 13,
+   "momentum": 30,
    "score_status": "ok"
   },
   {
    "topic": "humanoid",
-   "evidence_count": 9,
-   "independent_source_labels": 2,
-   "recent_count": 9,
-   "previous_count": 0,
-   "momentum": 100,
+   "evidence_count": 29,
+   "independent_source_labels": 3,
+   "recent_count": 21,
+   "previous_count": 8,
+   "momentum": 45,
    "score_status": "ok"
   },
   {
@@ -68,7 +77,7 @@
    "score_status": "ok"
   },
   {
-   "topic": "AI agent",
+   "topic": "open-source model",
    "evidence_count": 2,
    "independent_source_labels": 1,
    "recent_count": 2,

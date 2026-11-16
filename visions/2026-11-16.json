@@ -1,0 +1,287 @@
+{
+ "date": "2026-11-16",
+ "generated_by": "regole",
+ "visions": [
+  {
+   "headline": "reasoning: in crescita",
+   "facts": [
+    "41 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +100 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "ai-tech",
+   "sector_name": "AI e tecnologia",
+   "topic": "reasoning",
+   "sources": [
+    {
+     "title": "Proof-Grounded Patient-Specific Clinical Explanations from Knowledge-Graph Reasoning",
+     "link": "https://arxiv.org/abs/2610.06549",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Recursive Belief Vision Language Action Models",
+     "link": "https://arxiv.org/abs/2602.20659",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Talk to Act: A Synthetic Multi-Turn Dialogue Benchmark for Human Intent Extraction and Action Planning in Robotics",
+     "link": "https://arxiv.org/abs/2611.17549",
+     "source": "arxiv-cs-ro"
+    },
+    {
+     "title": "Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models",
+     "link": "https://arxiv.org/abs/2611.17775",
+     "source": "arxiv-cs-ro"
+    },
+    {
+     "title": "Foundation Model Driven Robotics: A Comprehensive Review",
+     "link": "https://arxiv.org/abs/2507.10087",
+     "source": "arxiv-cs-ro"
+    },
+    {
+     "title": "E0: Expressive Fine-Grained Discrete Action Prediction for Vision-Language-Action Models via Tweedie Discrete Diffusion",
+     "link": "https://arxiv.org/abs/2511.21542",
+     "source": "arxiv-cs-ro"
+    }
+   ],
+   "baseline": {
+    "momentum": 100,
+    "recent": 41,
+    "previous": 0,
+    "evidence_30": 41
+   }
+  },
+  {
+   "headline": "automation: in crescita",
+   "facts": [
+    "5 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +100 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "ai-tech",
+   "sector_name": "AI e tecnologia",
+   "topic": "automation",
+   "sources": [
+    {
+     "title": "DECODE: Diagnosing Interpretability Failures in Automated Interpretation Process",
+     "link": "https://arxiv.org/abs/2611.17856",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "AI-aided Decision-Making in Education - Uncertainty, Explainability, and Human Responsibility",
+     "link": "https://arxiv.org/abs/2611.17858",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions",
+     "link": "https://arxiv.org/abs/2406.15877",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "AI Agents Push Humans Out of the Loop",
+     "link": "https://arxiv.org/abs/2608.23642",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Heavy Metal Acrobatics: Learning Dynamic Control for Skid-Steer Loaders",
+     "link": "https://arxiv.org/abs/2611.18365",
+     "source": "arxiv-cs-ro"
+    }
+   ],
+   "baseline": {
+    "momentum": 100,
+    "recent": 5,
+    "previous": 0,
+    "evidence_30": 5
+   }
+  },
+  {
+   "headline": "supply chain: in crescita",
+   "facts": [
+    "64 evidenze negli ultimi 45 giorni contro 55 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +8 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "operations",
+   "sector_name": "Industria e Operations",
+   "topic": "supply chain",
+   "sources": [
+    {
+     "title": "Business continuity starts before supply chain disruption",
+     "link": "https://www.supplychaindive.com/spons/business-continuity-starts-before-supply-chain-disruption/874344/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "From cost center to growth engine: The supply chain value shift",
+     "link": "https://www.supplychaindive.com/spons/from-cost-center-to-growth-engine-the-supply-chain-value-shift/874220/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "BMW announces new battery supply deals for the US, Europe",
+     "link": "https://www.supplychaindive.com/news/bmw-announces-new-battery-supply-deals-for-the-us-europe/874409/",
+     "source": "supplychaindive"
+    }
+   ],
+   "baseline": {
+    "momentum": 8,
+    "recent": 64,
+    "previous": 55,
+    "evidence_30": 50
+   }
+  },
+  {
+   "headline": "warehouse: segnale da osservare",
+   "facts": [
+    "23 evidenze negli ultimi 45 giorni contro 12 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 1."
+   ],
+   "hypotheses": [
+    "Segnale ancora debole: potrebbe essere rumore. Va solo tenuto d'occhio."
+   ],
+   "scenarios": [
+    {
+     "label": "Si conferma",
+     "text": "Nei prossimi giorni compaiono nuove evidenze da fonti diverse."
+    },
+    {
+     "label": "Svanisce",
+     "text": "Non arrivano altre evidenze e il segnale scompare."
+    }
+   ],
+   "confidence": "bassa",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "operations",
+   "sector_name": "Industria e Operations",
+   "topic": "warehouse",
+   "sources": [],
+   "baseline": {
+    "momentum": null,
+    "recent": 23,
+    "previous": 12,
+    "evidence_30": 18
+   }
+  },
+  {
+   "headline": "wearable: in crescita",
+   "facts": [
+    "15 evidenze negli ultimi 45 giorni contro 11 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +15 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "sport",
+   "sector_name": "Sport e innovazione",
+   "topic": "wearable",
+   "sources": [
+    {
+     "title": "New wearable ultrasound patch boosts REM sleep without drugs or surgery",
+     "link": "https://www.sciencedaily.com/releases/2026/11/261116014842.htm",
+     "source": "sciencedaily-sports"
+    }
+   ],
+   "baseline": {
+    "momentum": 15,
+    "recent": 15,
+    "previous": 11,
+    "evidence_30": 12
+   }
+  },
+  {
+   "headline": "heart rate: segnale da osservare",
+   "facts": [
+    "3 evidenze negli ultimi 45 giorni contro 2 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 1."
+   ],
+   "hypotheses": [
+    "Segnale ancora debole: potrebbe essere rumore. Va solo tenuto d'occhio."
+   ],
+   "scenarios": [
+    {
+     "label": "Si conferma",
+     "text": "Nei prossimi giorni compaiono nuove evidenze da fonti diverse."
+    },
+    {
+     "label": "Svanisce",
+     "text": "Non arrivano altre evidenze e il segnale scompare."
+    }
+   ],
+   "confidence": "bassa",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "sport",
+   "sector_name": "Sport e innovazione",
+   "topic": "heart rate",
+   "sources": [],
+   "baseline": {
+    "momentum": null,
+    "recent": 3,
+    "previous": 2,
+    "evidence_30": 1
+   }
+  }
+ ]
+}

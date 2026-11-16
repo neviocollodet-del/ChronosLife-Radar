@@ -1,0 +1,66 @@
+{
+ "ai-tech": [
+  {
+   "a": "agentic",
+   "b": "reasoning",
+   "count": 6
+  },
+  {
+   "a": "agentic",
+   "b": "robotics",
+   "count": 6
+  },
+  {
+   "a": "reasoning",
+   "b": "robotics",
+   "count": 6
+  },
+  {
+   "a": "multimodal",
+   "b": "reasoning",
+   "count": 4
+  },
+  {
+   "a": "fine-tuning",
+   "b": "reasoning",
+   "count": 3
+  },
+  {
+   "a": "agentic",
+   "b": "humanoid",
+   "count": 2
+  },
+  {
+   "a": "agentic",
+   "b": "multimodal",
+   "count": 2
+  },
+  {
+   "a": "humanoid",
+   "b": "reasoning",
+   "count": 2
+  },
+  {
+   "a": "multimodal",
+   "b": "robotics",
+   "count": 2
+  },
+  {
+   "a": "AI agent",
+   "b": "automation",
+   "count": 1
+  },
+  {
+   "a": "RAG",
+   "b": "reasoning",
+   "count": 1
+  },
+  {
+   "a": "automation",
+   "b": "reasoning",
+   "count": 1
+  }
+ ],
+ "operations": [],
+ "sport": []
+}
