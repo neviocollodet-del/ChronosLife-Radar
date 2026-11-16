@@ -41,6 +41,16 @@ jobs:
           name: CronosLife-Radar
           path: dist/CronosLife-Radar.apk
           if-no-files-found: error
+      - name: Publish APK on branch "apk" (direct download link)
+        if: github.event_name == 'push' && !startsWith(github.ref, 'refs/tags/')
+        run: |
+          mkdir apk-out && cp dist/CronosLife-Radar.apk apk-out/
+          echo "CronosLife Radar - branch ${{ github.ref_name }} - commit ${GITHUB_SHA::7} - $(date -u +%FT%TZ)" > apk-out/VERSION.txt
+          cd apk-out
+          git init -q -b apk
+          git config user.name "radar-bot" && git config user.email "radar-bot@users.noreply.github.com"
+          git add -A && git commit -q -m "APK ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" apk
       - name: Publish GitHub Release
         if: startsWith(github.ref, 'refs/tags/v')
         env:
