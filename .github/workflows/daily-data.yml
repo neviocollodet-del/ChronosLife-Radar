@@ -1,5 +1,8 @@
 name: Daily data update
 on:
+  push:
+    branches: [main]
+    paths: ["backend/**", ".github/workflows/daily-data.yml"]
   schedule:
     - cron: "17 4 * * *"
   workflow_dispatch:
