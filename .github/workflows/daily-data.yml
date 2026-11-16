@@ -1,5 +1,8 @@
 name: Daily data update
 on:
+  push:
+    branches: [main]
+    paths: ["backend/**", ".github/workflows/daily-data.yml"]
   schedule:
     - cron: "17 4 * * *"
   workflow_dispatch:
@@ -21,6 +24,8 @@ jobs:
             mkdir data-out && git -C data-out init -q -b data && git -C data-out remote add origin "$URL"
           fi
       - name: Collect and compute
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: cd backend && python -m app.publish ../data-out
       - name: Publish
         run: |

@@ -2,14 +2,15 @@ name: Build ChronosLife Radar APK
 
 on:
   push:
-    branches: [main, m2-momentum-watchlist]
+    branches: [main, m5-sections]
+    tags: ['v*']
   workflow_dispatch:
 
 jobs:
   android-debug:
     runs-on: ubuntu-24.04
     permissions:
-      contents: read
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,9 +33,30 @@ jobs:
       - name: Build debug APK
         working-directory: android
         run: gradle --no-daemon --stacktrace assembleDebug
+      - name: Rename APK
+        run: mkdir -p dist && cp android/app/build/outputs/apk/debug/app-debug.apk dist/CronosLife-Radar.apk
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: ChronosLife-Radar-M2-debug
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          name: CronosLife-Radar
+          path: dist/CronosLife-Radar.apk
           if-no-files-found: error
+      - name: Publish APK on branch "apk" (direct download link)
+        if: github.event_name == 'push' && !startsWith(github.ref, 'refs/tags/')
+        run: |
+          mkdir apk-out && cp dist/CronosLife-Radar.apk apk-out/
+          echo "CronosLife Radar - branch ${{ github.ref_name }} - commit ${GITHUB_SHA::7} - $(date -u +%FT%TZ)" > apk-out/VERSION.txt
+          cd apk-out
+          git init -q -b apk
+          git config user.name "radar-bot" && git config user.email "radar-bot@users.noreply.github.com"
+          git add -A && git commit -q -m "APK ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" apk
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ github.ref_name }}" dist/CronosLife-Radar.apk \
+            --title "CronosLife Radar ${{ github.ref_name }}" \
+            --notes "APK di debug (firma di test fissa). Installa CronosLife-Radar.apk; se hai una versione con firma diversa, disinstallala prima." \
+            --target "${{ github.sha }}"

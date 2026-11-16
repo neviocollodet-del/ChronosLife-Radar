@@ -17,7 +17,9 @@ def matched_keywords(sector_id: str, text: str):
     return [kw for kw in SECTORS[sector_id]["keywords"] if _pattern(kw).search(text)]
 
 
-def compute_trends(db, sector_id: str, window_days: int, now=None, limit: int = 20):
+def compute_trends(db, sector_id: str, window_days: int, now=None, limit: int = 20, extra=None):
+    """extra: {(sector, parola, giorni): (recenti, precedenti)} da una fonte con storico (Hacker News)."""
+    extra = extra or {}
     cfg = SECTORS[sector_id]
     now = now or int(time.time())
     since = now - window_days * 86400
@@ -28,14 +30,16 @@ def compute_trends(db, sector_id: str, window_days: int, now=None, limit: int = 
     for kw in cfg["keywords"]:
         pat = _pattern(kw)
         hits = [r for r in rows if pat.search(r[1] + " " + r[2])]
-        if hits:
-            sources = len({h[0] for h in hits})
-            recent = sum(1 for h in hits if h[3] >= mid)
-            previous = len(hits) - recent
-            ok = len(hits) >= MIN_EVIDENCE_FOR_SCORE and sources >= MIN_SOURCES_FOR_SCORE
+        er, ep = extra.get((sector_id, kw, window_days), (0, 0))
+        if hits or er + ep:
+            sources = len({h[0] for h in hits}) + (1 if er + ep else 0)
+            recent = sum(1 for h in hits if h[3] >= mid) + er
+            previous = len(hits) - (recent - er) + ep
+            total = recent + previous
+            ok = total >= MIN_EVIDENCE_FOR_SCORE and sources >= MIN_SOURCES_FOR_SCORE
             # Momentum = (recenti - precedenti) / (recenti + precedenti) * 100, tra -100 e +100
-            momentum = round(100 * (recent - previous) / len(hits)) if ok else None
-            items.append({"topic": kw, "evidence_count": len(hits),
+            momentum = round(100 * (recent - previous) / total) if ok else None
+            items.append({"topic": kw, "evidence_count": total,
                           "independent_source_labels": sources,
                           "recent_count": recent, "previous_count": previous,
                           "momentum": momentum,
