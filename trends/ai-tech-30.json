@@ -1,33 +1,87 @@
 {
  "sector_id": "ai-tech",
  "window_days": 30,
- "data_status": "insufficient",
- "items_scanned": 3,
+ "data_status": "ok",
+ "items_scanned": 112,
  "items": [
   {
-   "topic": "agentic",
-   "evidence_count": 1,
-   "independent_source_labels": 1,
-   "recent_count": 1,
+   "topic": "reasoning",
+   "evidence_count": 41,
+   "independent_source_labels": 2,
+   "recent_count": 41,
    "previous_count": 0,
-   "momentum": null,
-   "score_status": "dati insufficienti"
+   "momentum": 100,
+   "score_status": "ok"
   },
   {
-   "topic": "fine-tuning",
-   "evidence_count": 1,
-   "independent_source_labels": 1,
-   "recent_count": 1,
+   "topic": "agentic",
+   "evidence_count": 29,
+   "independent_source_labels": 3,
+   "recent_count": 29,
    "previous_count": 0,
-   "momentum": null,
-   "score_status": "dati insufficienti"
+   "momentum": 100,
+   "score_status": "ok"
   },
   {
    "topic": "multimodal",
+   "evidence_count": 22,
+   "independent_source_labels": 3,
+   "recent_count": 21,
+   "previous_count": 1,
+   "momentum": 91,
+   "score_status": "ok"
+  },
+  {
+   "topic": "fine-tuning",
+   "evidence_count": 20,
+   "independent_source_labels": 2,
+   "recent_count": 20,
+   "previous_count": 0,
+   "momentum": 100,
+   "score_status": "ok"
+  },
+  {
+   "topic": "robotics",
+   "evidence_count": 13,
+   "independent_source_labels": 2,
+   "recent_count": 13,
+   "previous_count": 0,
+   "momentum": 100,
+   "score_status": "ok"
+  },
+  {
+   "topic": "humanoid",
+   "evidence_count": 9,
+   "independent_source_labels": 2,
+   "recent_count": 9,
+   "previous_count": 0,
+   "momentum": 100,
+   "score_status": "ok"
+  },
+  {
+   "topic": "automation",
+   "evidence_count": 5,
+   "independent_source_labels": 2,
+   "recent_count": 5,
+   "previous_count": 0,
+   "momentum": 100,
+   "score_status": "ok"
+  },
+  {
+   "topic": "AI agent",
+   "evidence_count": 2,
+   "independent_source_labels": 1,
+   "recent_count": 2,
+   "previous_count": 0,
+   "momentum": null,
+   "score_status": "dati insufficienti"
+  },
+  {
+   "topic": "RAG",
    "evidence_count": 1,
    "independent_source_labels": 1,
-   "recent_count": 0,
-   "previous_count": 1,
+   "recent_count": 1,
+   "previous_count": 0,
    "momentum": null,
    "score_status": "dati insufficienti"
   }
