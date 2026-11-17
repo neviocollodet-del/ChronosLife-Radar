@@ -1,11 +1,11 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "generated_by": "regole",
  "visions": [
   {
    "headline": "reasoning: in crescita",
    "facts": [
-    "41 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "154 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -30,47 +30,47 @@
    "topic": "reasoning",
    "sources": [
     {
-     "title": "Proof-Grounded Patient-Specific Clinical Explanations from Knowledge-Graph Reasoning",
-     "link": "https://arxiv.org/abs/2610.06549",
+     "title": "SPLICE: Structured Prompt Local Iterative Combinatorial Evolution",
+     "link": "https://arxiv.org/abs/2611.18883",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Recursive Belief Vision Language Action Models",
-     "link": "https://arxiv.org/abs/2602.20659",
+     "title": "SpecRelay: Amortize or Avoid the Round Trip in Edge-Cloud Speculative Decoding",
+     "link": "https://arxiv.org/abs/2611.18963",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Talk to Act: A Synthetic Multi-Turn Dialogue Benchmark for Human Intent Extraction and Action Planning in Robotics",
-     "link": "https://arxiv.org/abs/2611.17549",
-     "source": "arxiv-cs-ro"
+     "title": "Policy Optimization With Multiple Verifiers via Pareto Rankings",
+     "link": "https://arxiv.org/abs/2611.19064",
+     "source": "arxiv-cs-ai"
     },
     {
-     "title": "Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models",
-     "link": "https://arxiv.org/abs/2611.17775",
-     "source": "arxiv-cs-ro"
+     "title": "Agent-Guided Process Verification for Mathematical Self-Correction",
+     "link": "https://arxiv.org/abs/2611.19122",
+     "source": "arxiv-cs-ai"
     },
     {
-     "title": "Foundation Model Driven Robotics: A Comprehensive Review",
-     "link": "https://arxiv.org/abs/2507.10087",
-     "source": "arxiv-cs-ro"
+     "title": "Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns",
+     "link": "https://arxiv.org/abs/2611.19244",
+     "source": "arxiv-cs-ai"
     },
     {
-     "title": "E0: Expressive Fine-Grained Discrete Action Prediction for Vision-Language-Action Models via Tweedie Discrete Diffusion",
-     "link": "https://arxiv.org/abs/2511.21542",
-     "source": "arxiv-cs-ro"
+     "title": "Beyond Clumsy Agentic Tool Calling: How Cueing and Spotting Make the Difference",
+     "link": "https://arxiv.org/abs/2611.19275",
+     "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 41,
+    "recent": 154,
     "previous": 0,
-    "evidence_30": 41
+    "evidence_30": 154
    }
   },
   {
    "headline": "automation: in crescita",
    "facts": [
-    "5 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "15 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -95,36 +95,41 @@
    "topic": "automation",
    "sources": [
     {
-     "title": "DECODE: Diagnosing Interpretability Failures in Automated Interpretation Process",
-     "link": "https://arxiv.org/abs/2611.17856",
+     "title": "Large Language Models for AI Infrastructure",
+     "link": "https://arxiv.org/abs/2611.19061",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "AI-aided Decision-Making in Education - Uncertainty, Explainability, and Human Responsibility",
-     "link": "https://arxiv.org/abs/2611.17858",
+     "title": "Advancing Cognitive Pairwise Comparisons for Human-Centric Artificial Intelligence and Data Science: A Human-in-the-Loop Framework",
+     "link": "https://arxiv.org/abs/2611.20926",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions",
-     "link": "https://arxiv.org/abs/2406.15877",
+     "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+     "link": "https://arxiv.org/abs/2611.21003",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "AI Agents Push Humans Out of the Loop",
-     "link": "https://arxiv.org/abs/2608.23642",
+     "title": "Vibe synthesis: hierarchical agentic decision-making for intent-driven multistep molecule synthesis",
+     "link": "https://arxiv.org/abs/2611.18772",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Heavy Metal Acrobatics: Learning Dynamic Control for Skid-Steer Loaders",
-     "link": "https://arxiv.org/abs/2611.18365",
-     "source": "arxiv-cs-ro"
+     "title": "Build2SPARQL: A Large-Scale Text-to-SPARQL Benchmark Dataset for Building Knowledge Graph Querying",
+     "link": "https://arxiv.org/abs/2610.00224",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "A Survey of Data Agents: Emerging Paradigm or Overstated Hype?",
+     "link": "https://arxiv.org/abs/2510.23587",
+     "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 5,
+    "recent": 15,
     "previous": 0,
-    "evidence_30": 5
+    "evidence_30": 15
    }
   },
   {
@@ -180,7 +185,7 @@
   {
    "headline": "warehouse: segnale da osservare",
    "facts": [
-    "23 evidenze negli ultimi 45 giorni contro 12 nei 45 precedenti.",
+    "23 evidenze negli ultimi 45 giorni contro 11 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -206,7 +211,7 @@
    "baseline": {
     "momentum": null,
     "recent": 23,
-    "previous": 12,
+    "previous": 11,
     "evidence_30": 18
    }
   },

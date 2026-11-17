@@ -2,94 +2,94 @@
  "sector_id": "ai-tech",
  "window_days": 30,
  "data_status": "ok",
- "items_scanned": 112,
+ "items_scanned": 365,
  "items": [
   {
    "topic": "agentic",
-   "evidence_count": 307,
+   "evidence_count": 371,
    "independent_source_labels": 4,
-   "recent_count": 168,
-   "previous_count": 139,
-   "momentum": 9,
+   "recent_count": 229,
+   "previous_count": 142,
+   "momentum": 23,
    "score_status": "ok"
   },
   {
    "topic": "AI agent",
-   "evidence_count": 238,
-   "independent_source_labels": 2,
-   "recent_count": 111,
-   "previous_count": 127,
-   "momentum": -7,
-   "score_status": "ok"
-  },
-  {
-   "topic": "robotics",
-   "evidence_count": 67,
+   "evidence_count": 252,
    "independent_source_labels": 3,
-   "recent_count": 45,
-   "previous_count": 22,
-   "momentum": 34,
+   "recent_count": 125,
+   "previous_count": 127,
+   "momentum": -1,
    "score_status": "ok"
   },
   {
    "topic": "reasoning",
-   "evidence_count": 41,
+   "evidence_count": 154,
    "independent_source_labels": 2,
-   "recent_count": 41,
+   "recent_count": 154,
    "previous_count": 0,
    "momentum": 100,
-   "score_status": "ok"
-  },
-  {
-   "topic": "fine-tuning",
-   "evidence_count": 37,
-   "independent_source_labels": 3,
-   "recent_count": 29,
-   "previous_count": 8,
-   "momentum": 57,
    "score_status": "ok"
   },
   {
    "topic": "multimodal",
-   "evidence_count": 37,
+   "evidence_count": 88,
    "independent_source_labels": 4,
-   "recent_count": 24,
+   "recent_count": 75,
    "previous_count": 13,
-   "momentum": 30,
+   "momentum": 70,
+   "score_status": "ok"
+  },
+  {
+   "topic": "robotics",
+   "evidence_count": 80,
+   "independent_source_labels": 3,
+   "recent_count": 57,
+   "previous_count": 23,
+   "momentum": 42,
+   "score_status": "ok"
+  },
+  {
+   "topic": "fine-tuning",
+   "evidence_count": 74,
+   "independent_source_labels": 4,
+   "recent_count": 66,
+   "previous_count": 8,
+   "momentum": 78,
    "score_status": "ok"
   },
   {
    "topic": "humanoid",
-   "evidence_count": 29,
+   "evidence_count": 37,
    "independent_source_labels": 3,
-   "recent_count": 21,
-   "previous_count": 8,
-   "momentum": 45,
+   "recent_count": 30,
+   "previous_count": 7,
+   "momentum": 62,
    "score_status": "ok"
   },
   {
    "topic": "automation",
-   "evidence_count": 5,
+   "evidence_count": 15,
    "independent_source_labels": 2,
-   "recent_count": 5,
+   "recent_count": 15,
    "previous_count": 0,
    "momentum": 100,
    "score_status": "ok"
+  },
+  {
+   "topic": "RAG",
+   "evidence_count": 8,
+   "independent_source_labels": 1,
+   "recent_count": 8,
+   "previous_count": 0,
+   "momentum": null,
+   "score_status": "dati insufficienti"
   },
   {
    "topic": "open-source model",
    "evidence_count": 2,
    "independent_source_labels": 1,
    "recent_count": 2,
-   "previous_count": 0,
-   "momentum": null,
-   "score_status": "dati insufficienti"
-  },
-  {
-   "topic": "RAG",
-   "evidence_count": 1,
-   "independent_source_labels": 1,
-   "recent_count": 1,
    "previous_count": 0,
    "momentum": null,
    "score_status": "dati insufficienti"
