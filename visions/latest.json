@@ -1,11 +1,11 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "generated_by": "regole",
  "visions": [
   {
    "headline": "reasoning: in crescita",
    "facts": [
-    "154 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "222 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -30,47 +30,47 @@
    "topic": "reasoning",
    "sources": [
     {
-     "title": "SPLICE: Structured Prompt Local Iterative Combinatorial Evolution",
-     "link": "https://arxiv.org/abs/2611.18883",
+     "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+     "link": "https://arxiv.org/abs/2611.21682",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "SpecRelay: Amortize or Avoid the Round Trip in Edge-Cloud Speculative Decoding",
-     "link": "https://arxiv.org/abs/2611.18963",
+     "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+     "link": "https://arxiv.org/abs/2611.21799",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Policy Optimization With Multiple Verifiers via Pareto Rankings",
-     "link": "https://arxiv.org/abs/2611.19064",
+     "title": "Language Models Can Rewrite Their Own Weights",
+     "link": "https://arxiv.org/abs/2611.21885",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Agent-Guided Process Verification for Mathematical Self-Correction",
-     "link": "https://arxiv.org/abs/2611.19122",
+     "title": "Conserved Verdicts, Drifting Commitments: Identifying Harmful Overthinking",
+     "link": "https://arxiv.org/abs/2611.21946",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Agentic On-Policy Distillation Implicitly Reshapes LLMs' ReAct Patterns",
-     "link": "https://arxiv.org/abs/2611.19244",
+     "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+     "link": "https://arxiv.org/abs/2611.22033",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Beyond Clumsy Agentic Tool Calling: How Cueing and Spotting Make the Difference",
-     "link": "https://arxiv.org/abs/2611.19275",
+     "title": "MedGuardBench: A Patient-Oriented Benchmark for Personalized Guardrail Development",
+     "link": "https://arxiv.org/abs/2611.22069",
      "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 154,
+    "recent": 222,
     "previous": 0,
-    "evidence_30": 154
+    "evidence_30": 222
    }
   },
   {
    "headline": "automation: in crescita",
    "facts": [
-    "15 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "19 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -95,9 +95,24 @@
    "topic": "automation",
    "sources": [
     {
-     "title": "Large Language Models for AI Infrastructure",
-     "link": "https://arxiv.org/abs/2611.19061",
+     "title": "From Ideal to Real: Integrating Language Models into Smart Home for Human-Centric IoT Safety and Security Fuzzing",
+     "link": "https://arxiv.org/abs/2611.22457",
      "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Human-like Semantic Navigation for Autonomous Driving using Knowledge Representation and Large Language Models",
+     "link": "https://arxiv.org/abs/2505.16498",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Technical Report of Mobile Manipulator Robot for Industrial Environments",
+     "link": "https://arxiv.org/abs/2611.22852",
+     "source": "arxiv-cs-ro"
+    },
+    {
+     "title": "Human-like Semantic Navigation for Autonomous Driving using Knowledge Representation and Large Language Models",
+     "link": "https://arxiv.org/abs/2505.16498",
+     "source": "arxiv-cs-ro"
     },
     {
      "title": "Advancing Cognitive Pairwise Comparisons for Human-Centric Artificial Intelligence and Data Science: A Human-in-the-Loop Framework",
@@ -105,39 +120,24 @@
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
-     "link": "https://arxiv.org/abs/2611.21003",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "Vibe synthesis: hierarchical agentic decision-making for intent-driven multistep molecule synthesis",
-     "link": "https://arxiv.org/abs/2611.18772",
-     "source": "arxiv-cs-ai"
-    },
-    {
      "title": "Build2SPARQL: A Large-Scale Text-to-SPARQL Benchmark Dataset for Building Knowledge Graph Querying",
      "link": "https://arxiv.org/abs/2610.00224",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "A Survey of Data Agents: Emerging Paradigm or Overstated Hype?",
-     "link": "https://arxiv.org/abs/2510.23587",
      "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 15,
+    "recent": 19,
     "previous": 0,
-    "evidence_30": 15
+    "evidence_30": 19
    }
   },
   {
    "headline": "supply chain: in crescita",
    "facts": [
-    "64 evidenze negli ultimi 45 giorni contro 55 nei 45 precedenti.",
+    "68 evidenze negli ultimi 45 giorni contro 53 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +8 (scala da -100 a +100)."
+    "Momentum calcolato: +12 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -160,6 +160,11 @@
    "topic": "supply chain",
    "sources": [
     {
+     "title": "Wrangler parent company plans to beef up inventory spending",
+     "link": "https://www.supplychaindive.com/news/wrangler-parent-company-plans-to-beef-up-inventory-spending/874783/",
+     "source": "supplychaindive"
+    },
+    {
      "title": "Business continuity starts before supply chain disruption",
      "link": "https://www.supplychaindive.com/spons/business-continuity-starts-before-supply-chain-disruption/874344/",
      "source": "supplychaindive"
@@ -176,16 +181,16 @@
     }
    ],
    "baseline": {
-    "momentum": 8,
-    "recent": 64,
-    "previous": 55,
-    "evidence_30": 50
+    "momentum": 12,
+    "recent": 68,
+    "previous": 53,
+    "evidence_30": 53
    }
   },
   {
    "headline": "warehouse: segnale da osservare",
    "facts": [
-    "23 evidenze negli ultimi 45 giorni contro 11 nei 45 precedenti.",
+    "22 evidenze negli ultimi 45 giorni contro 12 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -210,17 +215,17 @@
    "sources": [],
    "baseline": {
     "momentum": null,
-    "recent": 23,
-    "previous": 11,
+    "recent": 22,
+    "previous": 12,
     "evidence_30": 18
    }
   },
   {
    "headline": "wearable: in crescita",
    "facts": [
-    "15 evidenze negli ultimi 45 giorni contro 11 nei 45 precedenti.",
+    "16 evidenze negli ultimi 45 giorni contro 10 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +15 (scala da -100 a +100)."
+    "Momentum calcolato: +23 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -243,22 +248,27 @@
    "topic": "wearable",
    "sources": [
     {
+     "title": "Tiny magnets deep inside the brain could transform Parkinson’s treatment",
+     "link": "https://www.sciencedaily.com/releases/2026/11/261116023354.htm",
+     "source": "sciencedaily-sports"
+    },
+    {
      "title": "New wearable ultrasound patch boosts REM sleep without drugs or surgery",
      "link": "https://www.sciencedaily.com/releases/2026/11/261116014842.htm",
      "source": "sciencedaily-sports"
     }
    ],
    "baseline": {
-    "momentum": 15,
-    "recent": 15,
-    "previous": 11,
+    "momentum": 23,
+    "recent": 16,
+    "previous": 10,
     "evidence_30": 12
    }
   },
   {
    "headline": "heart rate: segnale da osservare",
    "facts": [
-    "3 evidenze negli ultimi 45 giorni contro 2 nei 45 precedenti.",
+    "4 evidenze negli ultimi 45 giorni contro 2 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -283,9 +293,9 @@
    "sources": [],
    "baseline": {
     "momentum": null,
-    "recent": 3,
+    "recent": 4,
     "previous": 2,
-    "evidence_30": 1
+    "evidence_30": 2
    }
   }
  ]

@@ -2,22 +2,22 @@
  "sector_id": "sport",
  "window_days": 365,
  "data_status": "insufficient",
- "items_scanned": 4,
+ "items_scanned": 5,
  "items": [
   {
    "topic": "wearable",
-   "evidence_count": 133,
+   "evidence_count": 134,
    "independent_source_labels": 2,
-   "recent_count": 72,
-   "previous_count": 61,
-   "momentum": 8,
+   "recent_count": 71,
+   "previous_count": 63,
+   "momentum": 6,
    "score_status": "ok"
   },
   {
    "topic": "heart rate",
-   "evidence_count": 47,
+   "evidence_count": 48,
    "independent_source_labels": 1,
-   "recent_count": 14,
+   "recent_count": 15,
    "previous_count": 33,
    "momentum": null,
    "score_status": "dati insufficienti"
