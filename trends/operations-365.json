@@ -2,31 +2,31 @@
  "sector_id": "operations",
  "window_days": 365,
  "data_status": "insufficient",
- "items_scanned": 7,
+ "items_scanned": 8,
  "items": [
   {
    "topic": "supply chain",
-   "evidence_count": 719,
+   "evidence_count": 718,
    "independent_source_labels": 2,
-   "recent_count": 294,
-   "previous_count": 425,
-   "momentum": -18,
+   "recent_count": 287,
+   "previous_count": 431,
+   "momentum": -20,
    "score_status": "ok"
   },
   {
    "topic": "logistics",
-   "evidence_count": 146,
+   "evidence_count": 144,
    "independent_source_labels": 2,
    "recent_count": 58,
-   "previous_count": 88,
-   "momentum": -21,
+   "previous_count": 86,
+   "momentum": -19,
    "score_status": "ok"
   },
   {
    "topic": "warehouse",
-   "evidence_count": 136,
+   "evidence_count": 137,
    "independent_source_labels": 1,
-   "recent_count": 59,
+   "recent_count": 60,
    "previous_count": 77,
    "momentum": null,
    "score_status": "dati insufficienti"
@@ -35,8 +35,8 @@
    "topic": "digital twin",
    "evidence_count": 39,
    "independent_source_labels": 1,
-   "recent_count": 12,
-   "previous_count": 27,
+   "recent_count": 11,
+   "previous_count": 28,
    "momentum": null,
    "score_status": "dati insufficienti"
   },

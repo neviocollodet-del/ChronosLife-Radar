@@ -1,0 +1,307 @@
+{
+ "date": "2026-11-19",
+ "generated_by": "regole",
+ "visions": [
+  {
+   "headline": "reasoning: in crescita",
+   "facts": [
+    "272 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +100 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "ai-tech",
+   "sector_name": "AI e tecnologia",
+   "topic": "reasoning",
+   "sources": [
+    {
+     "title": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
+     "link": "https://arxiv.org/abs/2611.23456",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "SpecLook: Speculating Where to Look for Fast and Reliable Agentic MLLMs",
+     "link": "https://arxiv.org/abs/2611.23483",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
+     "link": "https://arxiv.org/abs/2611.23509",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
+     "link": "https://arxiv.org/abs/2611.23564",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Auditable Clinical Support with Decision Agents",
+     "link": "https://arxiv.org/abs/2611.23700",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Modeling LLM Reasoning Dynamics with Structural Representations",
+     "link": "https://arxiv.org/abs/2611.23749",
+     "source": "arxiv-cs-ai"
+    }
+   ],
+   "baseline": {
+    "momentum": 100,
+    "recent": 272,
+    "previous": 0,
+    "evidence_30": 272
+   }
+  },
+  {
+   "headline": "automation: in crescita",
+   "facts": [
+    "24 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +100 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "ai-tech",
+   "sector_name": "AI e tecnologia",
+   "topic": "automation",
+   "sources": [
+    {
+     "title": "A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises",
+     "link": "https://arxiv.org/abs/2611.24039",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "automodel: A Skill for Agentic Model Discovery",
+     "link": "https://arxiv.org/abs/2611.24347",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Measuring What Matters in the Age of AI: The Research Software Metrics Landscape",
+     "link": "https://arxiv.org/abs/2611.23253",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+     "link": "https://arxiv.org/abs/2611.23257",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Measuring What Matters: Synthetic Benchmarks for Concept Bottleneck Models",
+     "link": "https://arxiv.org/abs/2606.04326",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Technical Report of Mobile Manipulator Robot for Industrial Environments",
+     "link": "https://arxiv.org/abs/2611.22852",
+     "source": "arxiv-cs-ro"
+    }
+   ],
+   "baseline": {
+    "momentum": 100,
+    "recent": 24,
+    "previous": 0,
+    "evidence_30": 24
+   }
+  },
+  {
+   "headline": "supply chain: in crescita",
+   "facts": [
+    "69 evidenze negli ultimi 45 giorni contro 52 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +14 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "operations",
+   "sector_name": "Industria e Operations",
+   "topic": "supply chain",
+   "sources": [
+    {
+     "title": "Starbucks inventory availability at ‘all-time high’ with daily deliveries, CEO says",
+     "link": "https://www.supplychaindive.com/news/starbucks-inventory-availability-at-all-time-high-with-daily-deliveries/874923/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "Wrangler parent company plans to beef up inventory spending",
+     "link": "https://www.supplychaindive.com/news/wrangler-parent-company-plans-to-beef-up-inventory-spending/874783/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "Business continuity starts before supply chain disruption",
+     "link": "https://www.supplychaindive.com/spons/business-continuity-starts-before-supply-chain-disruption/874344/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "From cost center to growth engine: The supply chain value shift",
+     "link": "https://www.supplychaindive.com/spons/from-cost-center-to-growth-engine-the-supply-chain-value-shift/874220/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "BMW announces new battery supply deals for the US, Europe",
+     "link": "https://www.supplychaindive.com/news/bmw-announces-new-battery-supply-deals-for-the-us-europe/874409/",
+     "source": "supplychaindive"
+    }
+   ],
+   "baseline": {
+    "momentum": 14,
+    "recent": 69,
+    "previous": 52,
+    "evidence_30": 51
+   }
+  },
+  {
+   "headline": "warehouse: segnale da osservare",
+   "facts": [
+    "23 evidenze negli ultimi 45 giorni contro 12 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 1."
+   ],
+   "hypotheses": [
+    "Segnale ancora debole: potrebbe essere rumore. Va solo tenuto d'occhio."
+   ],
+   "scenarios": [
+    {
+     "label": "Si conferma",
+     "text": "Nei prossimi giorni compaiono nuove evidenze da fonti diverse."
+    },
+    {
+     "label": "Svanisce",
+     "text": "Non arrivano altre evidenze e il segnale scompare."
+    }
+   ],
+   "confidence": "bassa",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "operations",
+   "sector_name": "Industria e Operations",
+   "topic": "warehouse",
+   "sources": [],
+   "baseline": {
+    "momentum": null,
+    "recent": 23,
+    "previous": 12,
+    "evidence_30": 19
+   }
+  },
+  {
+   "headline": "wearable: in crescita",
+   "facts": [
+    "15 evidenze negli ultimi 45 giorni contro 10 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +20 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "sport",
+   "sector_name": "Sport e innovazione",
+   "topic": "wearable",
+   "sources": [
+    {
+     "title": "Tiny magnets deep inside the brain could transform Parkinson’s treatment",
+     "link": "https://www.sciencedaily.com/releases/2026/11/261116023354.htm",
+     "source": "sciencedaily-sports"
+    },
+    {
+     "title": "New wearable ultrasound patch boosts REM sleep without drugs or surgery",
+     "link": "https://www.sciencedaily.com/releases/2026/11/261116014842.htm",
+     "source": "sciencedaily-sports"
+    }
+   ],
+   "baseline": {
+    "momentum": 20,
+    "recent": 15,
+    "previous": 10,
+    "evidence_30": 11
+   }
+  },
+  {
+   "headline": "heart rate: segnale da osservare",
+   "facts": [
+    "3 evidenze negli ultimi 45 giorni contro 3 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 1."
+   ],
+   "hypotheses": [
+    "Segnale ancora debole: potrebbe essere rumore. Va solo tenuto d'occhio."
+   ],
+   "scenarios": [
+    {
+     "label": "Si conferma",
+     "text": "Nei prossimi giorni compaiono nuove evidenze da fonti diverse."
+    },
+    {
+     "label": "Svanisce",
+     "text": "Non arrivano altre evidenze e il segnale scompare."
+    }
+   ],
+   "confidence": "bassa",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "sport",
+   "sector_name": "Sport e innovazione",
+   "topic": "heart rate",
+   "sources": [],
+   "baseline": {
+    "momentum": null,
+    "recent": 3,
+    "previous": 3,
+    "evidence_30": 2
+   }
+  }
+ ]
+}

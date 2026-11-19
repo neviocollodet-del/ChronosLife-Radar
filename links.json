@@ -3,17 +3,22 @@
   {
    "a": "agentic",
    "b": "reasoning",
-   "count": 30
+   "count": 35
   },
   {
    "a": "multimodal",
    "b": "reasoning",
-   "count": 25
+   "count": 33
   },
   {
    "a": "fine-tuning",
    "b": "reasoning",
-   "count": 11
+   "count": 14
+  },
+  {
+   "a": "agentic",
+   "b": "multimodal",
+   "count": 13
   },
   {
    "a": "reasoning",
@@ -21,9 +26,14 @@
    "count": 8
   },
   {
+   "a": "RAG",
+   "b": "reasoning",
+   "count": 6
+  },
+  {
    "a": "agentic",
-   "b": "multimodal",
-   "count": 7
+   "b": "automation",
+   "count": 6
   },
   {
    "a": "agentic",
@@ -31,33 +41,23 @@
    "count": 6
   },
   {
+   "a": "RAG",
+   "b": "agentic",
+   "count": 5
+  },
+  {
    "a": "automation",
    "b": "reasoning",
    "count": 5
   },
   {
-   "a": "RAG",
-   "b": "reasoning",
-   "count": 4
+   "a": "fine-tuning",
+   "b": "multimodal",
+   "count": 5
   },
   {
    "a": "AI agent",
    "b": "reasoning",
-   "count": 3
-  },
-  {
-   "a": "RAG",
-   "b": "agentic",
-   "count": 3
-  },
-  {
-   "a": "agentic",
-   "b": "automation",
-   "count": 3
-  },
-  {
-   "a": "fine-tuning",
-   "b": "multimodal",
    "count": 3
   },
   {
@@ -68,6 +68,11 @@
   {
    "a": "AI agent",
    "b": "agentic",
+   "count": 2
+  },
+  {
+   "a": "RAG",
+   "b": "multimodal",
    "count": 2
   },
   {
@@ -88,11 +93,6 @@
   {
    "a": "AI agent",
    "b": "automation",
-   "count": 1
-  },
-  {
-   "a": "RAG",
-   "b": "multimodal",
    "count": 1
   },
   {

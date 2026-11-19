@@ -1,11 +1,11 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "generated_by": "regole",
  "visions": [
   {
    "headline": "reasoning: in crescita",
    "facts": [
-    "222 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "272 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -30,47 +30,47 @@
    "topic": "reasoning",
    "sources": [
     {
-     "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
-     "link": "https://arxiv.org/abs/2611.21682",
+     "title": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
+     "link": "https://arxiv.org/abs/2611.23456",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
-     "link": "https://arxiv.org/abs/2611.21799",
+     "title": "SpecLook: Speculating Where to Look for Fast and Reliable Agentic MLLMs",
+     "link": "https://arxiv.org/abs/2611.23483",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Language Models Can Rewrite Their Own Weights",
-     "link": "https://arxiv.org/abs/2611.21885",
+     "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
+     "link": "https://arxiv.org/abs/2611.23509",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Conserved Verdicts, Drifting Commitments: Identifying Harmful Overthinking",
-     "link": "https://arxiv.org/abs/2611.21946",
+     "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
+     "link": "https://arxiv.org/abs/2611.23564",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
-     "link": "https://arxiv.org/abs/2611.22033",
+     "title": "Auditable Clinical Support with Decision Agents",
+     "link": "https://arxiv.org/abs/2611.23700",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "MedGuardBench: A Patient-Oriented Benchmark for Personalized Guardrail Development",
-     "link": "https://arxiv.org/abs/2611.22069",
+     "title": "Modeling LLM Reasoning Dynamics with Structural Representations",
+     "link": "https://arxiv.org/abs/2611.23749",
      "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 222,
+    "recent": 272,
     "previous": 0,
-    "evidence_30": 222
+    "evidence_30": 272
    }
   },
   {
    "headline": "automation: in crescita",
    "facts": [
-    "19 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "24 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -95,49 +95,49 @@
    "topic": "automation",
    "sources": [
     {
-     "title": "From Ideal to Real: Integrating Language Models into Smart Home for Human-Centric IoT Safety and Security Fuzzing",
-     "link": "https://arxiv.org/abs/2611.22457",
+     "title": "A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises",
+     "link": "https://arxiv.org/abs/2611.24039",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Human-like Semantic Navigation for Autonomous Driving using Knowledge Representation and Large Language Models",
-     "link": "https://arxiv.org/abs/2505.16498",
+     "title": "automodel: A Skill for Agentic Model Discovery",
+     "link": "https://arxiv.org/abs/2611.24347",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Measuring What Matters in the Age of AI: The Research Software Metrics Landscape",
+     "link": "https://arxiv.org/abs/2611.23253",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+     "link": "https://arxiv.org/abs/2611.23257",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Measuring What Matters: Synthetic Benchmarks for Concept Bottleneck Models",
+     "link": "https://arxiv.org/abs/2606.04326",
      "source": "arxiv-cs-ai"
     },
     {
      "title": "Technical Report of Mobile Manipulator Robot for Industrial Environments",
      "link": "https://arxiv.org/abs/2611.22852",
      "source": "arxiv-cs-ro"
-    },
-    {
-     "title": "Human-like Semantic Navigation for Autonomous Driving using Knowledge Representation and Large Language Models",
-     "link": "https://arxiv.org/abs/2505.16498",
-     "source": "arxiv-cs-ro"
-    },
-    {
-     "title": "Advancing Cognitive Pairwise Comparisons for Human-Centric Artificial Intelligence and Data Science: A Human-in-the-Loop Framework",
-     "link": "https://arxiv.org/abs/2611.20926",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "Build2SPARQL: A Large-Scale Text-to-SPARQL Benchmark Dataset for Building Knowledge Graph Querying",
-     "link": "https://arxiv.org/abs/2610.00224",
-     "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 19,
+    "recent": 24,
     "previous": 0,
-    "evidence_30": 19
+    "evidence_30": 24
    }
   },
   {
    "headline": "supply chain: in crescita",
    "facts": [
-    "68 evidenze negli ultimi 45 giorni contro 53 nei 45 precedenti.",
+    "69 evidenze negli ultimi 45 giorni contro 52 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +12 (scala da -100 a +100)."
+    "Momentum calcolato: +14 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -160,6 +160,11 @@
    "topic": "supply chain",
    "sources": [
     {
+     "title": "Starbucks inventory availability at ‘all-time high’ with daily deliveries, CEO says",
+     "link": "https://www.supplychaindive.com/news/starbucks-inventory-availability-at-all-time-high-with-daily-deliveries/874923/",
+     "source": "supplychaindive"
+    },
+    {
      "title": "Wrangler parent company plans to beef up inventory spending",
      "link": "https://www.supplychaindive.com/news/wrangler-parent-company-plans-to-beef-up-inventory-spending/874783/",
      "source": "supplychaindive"
@@ -181,16 +186,16 @@
     }
    ],
    "baseline": {
-    "momentum": 12,
-    "recent": 68,
-    "previous": 53,
-    "evidence_30": 53
+    "momentum": 14,
+    "recent": 69,
+    "previous": 52,
+    "evidence_30": 51
    }
   },
   {
    "headline": "warehouse: segnale da osservare",
    "facts": [
-    "22 evidenze negli ultimi 45 giorni contro 12 nei 45 precedenti.",
+    "23 evidenze negli ultimi 45 giorni contro 12 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -215,17 +220,17 @@
    "sources": [],
    "baseline": {
     "momentum": null,
-    "recent": 22,
+    "recent": 23,
     "previous": 12,
-    "evidence_30": 18
+    "evidence_30": 19
    }
   },
   {
    "headline": "wearable: in crescita",
    "facts": [
-    "16 evidenze negli ultimi 45 giorni contro 10 nei 45 precedenti.",
+    "15 evidenze negli ultimi 45 giorni contro 10 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +23 (scala da -100 a +100)."
+    "Momentum calcolato: +20 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -259,16 +264,16 @@
     }
    ],
    "baseline": {
-    "momentum": 23,
-    "recent": 16,
+    "momentum": 20,
+    "recent": 15,
     "previous": 10,
-    "evidence_30": 12
+    "evidence_30": 11
    }
   },
   {
    "headline": "heart rate: segnale da osservare",
    "facts": [
-    "4 evidenze negli ultimi 45 giorni contro 2 nei 45 precedenti.",
+    "3 evidenze negli ultimi 45 giorni contro 3 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -293,8 +298,8 @@
    "sources": [],
    "baseline": {
     "momentum": null,
-    "recent": 4,
-    "previous": 2,
+    "recent": 3,
+    "previous": 3,
     "evidence_30": 2
    }
   }
