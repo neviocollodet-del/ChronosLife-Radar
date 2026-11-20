@@ -1,11 +1,11 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "generated_by": "regole",
  "visions": [
   {
    "headline": "reasoning: in crescita",
    "facts": [
-    "272 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "334 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -30,47 +30,47 @@
    "topic": "reasoning",
    "sources": [
     {
-     "title": "VeriMath: Human-in-the-Loop Generation and Verification of Curriculum-Aligned Mathematics Assessment Items",
-     "link": "https://arxiv.org/abs/2611.23456",
+     "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
+     "link": "https://arxiv.org/abs/2611.25043",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "SpecLook: Speculating Where to Look for Fast and Reliable Agentic MLLMs",
-     "link": "https://arxiv.org/abs/2611.23483",
+     "title": "MKA: Evaluating Multimodal Knowledge Agents on end-to-end professional tasks",
+     "link": "https://arxiv.org/abs/2611.25228",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
-     "link": "https://arxiv.org/abs/2611.23509",
+     "title": "Stop Going in Circles:Loop-Triggered Routing for System 1 Decision Agents",
+     "link": "https://arxiv.org/abs/2611.25363",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
-     "link": "https://arxiv.org/abs/2611.23564",
+     "title": "Falsifiable Compositional Reasoning in Time Series Forecasting",
+     "link": "https://arxiv.org/abs/2611.25388",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Auditable Clinical Support with Decision Agents",
-     "link": "https://arxiv.org/abs/2611.23700",
+     "title": "LM-based Personalized Travel Planner",
+     "link": "https://arxiv.org/abs/2611.25531",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Modeling LLM Reasoning Dynamics with Structural Representations",
-     "link": "https://arxiv.org/abs/2611.23749",
+     "title": "Diagnosis is not a policy: a state-transition audit of caoability-conditioned test-time inference",
+     "link": "https://arxiv.org/abs/2611.25566",
      "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 272,
+    "recent": 334,
     "previous": 0,
-    "evidence_30": 272
+    "evidence_30": 334
    }
   },
   {
    "headline": "automation: in crescita",
    "facts": [
-    "24 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "28 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -95,18 +95,23 @@
    "topic": "automation",
    "sources": [
     {
-     "title": "A Capability Framework for Evaluating Agentic AI Platforms in Regulated Enterprises",
-     "link": "https://arxiv.org/abs/2611.24039",
+     "title": "SiliconGym: A Versatile Reinforcement Learning Environment for Agentic EDA",
+     "link": "https://arxiv.org/abs/2611.25658",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "automodel: A Skill for Agentic Model Discovery",
-     "link": "https://arxiv.org/abs/2611.24347",
+     "title": "DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents",
+     "link": "https://arxiv.org/abs/2611.25066",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Measuring What Matters in the Age of AI: The Research Software Metrics Landscape",
-     "link": "https://arxiv.org/abs/2611.23253",
+     "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+     "link": "https://arxiv.org/abs/2611.26601",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Why Trust Your Agent? Empirical Security Gains from TRiSM-Guided Agentic Workflows in Healthcare",
+     "link": "https://arxiv.org/abs/2606.28666",
      "source": "arxiv-cs-ai"
     },
     {
@@ -118,26 +123,21 @@
      "title": "Measuring What Matters: Synthetic Benchmarks for Concept Bottleneck Models",
      "link": "https://arxiv.org/abs/2606.04326",
      "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "Technical Report of Mobile Manipulator Robot for Industrial Environments",
-     "link": "https://arxiv.org/abs/2611.22852",
-     "source": "arxiv-cs-ro"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 24,
+    "recent": 28,
     "previous": 0,
-    "evidence_30": 24
+    "evidence_30": 28
    }
   },
   {
    "headline": "supply chain: in crescita",
    "facts": [
-    "69 evidenze negli ultimi 45 giorni contro 52 nei 45 precedenti.",
+    "69 evidenze negli ultimi 45 giorni contro 53 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +14 (scala da -100 a +100)."
+    "Momentum calcolato: +13 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -159,6 +159,11 @@
    "sector_name": "Industria e Operations",
    "topic": "supply chain",
    "sources": [
+    {
+     "title": "Meta strikes deals to boost low-carbon materials production",
+     "link": "https://www.supplychaindive.com/news/meta-strikes-deals-to-boost-low-carbon-materials-production/875095/",
+     "source": "supplychaindive"
+    },
     {
      "title": "Starbucks inventory availability at ‘all-time high’ with daily deliveries, CEO says",
      "link": "https://www.supplychaindive.com/news/starbucks-inventory-availability-at-all-time-high-with-daily-deliveries/874923/",
@@ -186,16 +191,16 @@
     }
    ],
    "baseline": {
-    "momentum": 14,
+    "momentum": 13,
     "recent": 69,
-    "previous": 52,
+    "previous": 53,
     "evidence_30": 51
    }
   },
   {
    "headline": "warehouse: segnale da osservare",
    "facts": [
-    "23 evidenze negli ultimi 45 giorni contro 12 nei 45 precedenti.",
+    "22 evidenze negli ultimi 45 giorni contro 13 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -220,9 +225,9 @@
    "sources": [],
    "baseline": {
     "momentum": null,
-    "recent": 23,
-    "previous": 12,
-    "evidence_30": 19
+    "recent": 22,
+    "previous": 13,
+    "evidence_30": 18
    }
   },
   {
@@ -267,7 +272,7 @@
     "momentum": 20,
     "recent": 15,
     "previous": 10,
-    "evidence_30": 11
+    "evidence_30": 10
    }
   },
   {

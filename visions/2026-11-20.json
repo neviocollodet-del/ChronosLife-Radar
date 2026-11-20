@@ -1,0 +1,312 @@
+{
+ "date": "2026-11-20",
+ "generated_by": "regole",
+ "visions": [
+  {
+   "headline": "reasoning: in crescita",
+   "facts": [
+    "334 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +100 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "ai-tech",
+   "sector_name": "AI e tecnologia",
+   "topic": "reasoning",
+   "sources": [
+    {
+     "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
+     "link": "https://arxiv.org/abs/2611.25043",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "MKA: Evaluating Multimodal Knowledge Agents on end-to-end professional tasks",
+     "link": "https://arxiv.org/abs/2611.25228",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Stop Going in Circles:Loop-Triggered Routing for System 1 Decision Agents",
+     "link": "https://arxiv.org/abs/2611.25363",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Falsifiable Compositional Reasoning in Time Series Forecasting",
+     "link": "https://arxiv.org/abs/2611.25388",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "LM-based Personalized Travel Planner",
+     "link": "https://arxiv.org/abs/2611.25531",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Diagnosis is not a policy: a state-transition audit of caoability-conditioned test-time inference",
+     "link": "https://arxiv.org/abs/2611.25566",
+     "source": "arxiv-cs-ai"
+    }
+   ],
+   "baseline": {
+    "momentum": 100,
+    "recent": 334,
+    "previous": 0,
+    "evidence_30": 334
+   }
+  },
+  {
+   "headline": "automation: in crescita",
+   "facts": [
+    "28 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +100 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "ai-tech",
+   "sector_name": "AI e tecnologia",
+   "topic": "automation",
+   "sources": [
+    {
+     "title": "SiliconGym: A Versatile Reinforcement Learning Environment for Agentic EDA",
+     "link": "https://arxiv.org/abs/2611.25658",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents",
+     "link": "https://arxiv.org/abs/2611.25066",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+     "link": "https://arxiv.org/abs/2611.26601",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Why Trust Your Agent? Empirical Security Gains from TRiSM-Guided Agentic Workflows in Healthcare",
+     "link": "https://arxiv.org/abs/2606.28666",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software",
+     "link": "https://arxiv.org/abs/2611.23257",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Measuring What Matters: Synthetic Benchmarks for Concept Bottleneck Models",
+     "link": "https://arxiv.org/abs/2606.04326",
+     "source": "arxiv-cs-ai"
+    }
+   ],
+   "baseline": {
+    "momentum": 100,
+    "recent": 28,
+    "previous": 0,
+    "evidence_30": 28
+   }
+  },
+  {
+   "headline": "supply chain: in crescita",
+   "facts": [
+    "69 evidenze negli ultimi 45 giorni contro 53 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +13 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "operations",
+   "sector_name": "Industria e Operations",
+   "topic": "supply chain",
+   "sources": [
+    {
+     "title": "Meta strikes deals to boost low-carbon materials production",
+     "link": "https://www.supplychaindive.com/news/meta-strikes-deals-to-boost-low-carbon-materials-production/875095/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "Starbucks inventory availability at ‘all-time high’ with daily deliveries, CEO says",
+     "link": "https://www.supplychaindive.com/news/starbucks-inventory-availability-at-all-time-high-with-daily-deliveries/874923/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "Wrangler parent company plans to beef up inventory spending",
+     "link": "https://www.supplychaindive.com/news/wrangler-parent-company-plans-to-beef-up-inventory-spending/874783/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "Business continuity starts before supply chain disruption",
+     "link": "https://www.supplychaindive.com/spons/business-continuity-starts-before-supply-chain-disruption/874344/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "From cost center to growth engine: The supply chain value shift",
+     "link": "https://www.supplychaindive.com/spons/from-cost-center-to-growth-engine-the-supply-chain-value-shift/874220/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "BMW announces new battery supply deals for the US, Europe",
+     "link": "https://www.supplychaindive.com/news/bmw-announces-new-battery-supply-deals-for-the-us-europe/874409/",
+     "source": "supplychaindive"
+    }
+   ],
+   "baseline": {
+    "momentum": 13,
+    "recent": 69,
+    "previous": 53,
+    "evidence_30": 51
+   }
+  },
+  {
+   "headline": "warehouse: segnale da osservare",
+   "facts": [
+    "22 evidenze negli ultimi 45 giorni contro 13 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 1."
+   ],
+   "hypotheses": [
+    "Segnale ancora debole: potrebbe essere rumore. Va solo tenuto d'occhio."
+   ],
+   "scenarios": [
+    {
+     "label": "Si conferma",
+     "text": "Nei prossimi giorni compaiono nuove evidenze da fonti diverse."
+    },
+    {
+     "label": "Svanisce",
+     "text": "Non arrivano altre evidenze e il segnale scompare."
+    }
+   ],
+   "confidence": "bassa",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "operations",
+   "sector_name": "Industria e Operations",
+   "topic": "warehouse",
+   "sources": [],
+   "baseline": {
+    "momentum": null,
+    "recent": 22,
+    "previous": 13,
+    "evidence_30": 18
+   }
+  },
+  {
+   "headline": "wearable: in crescita",
+   "facts": [
+    "15 evidenze negli ultimi 45 giorni contro 10 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +20 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "sport",
+   "sector_name": "Sport e innovazione",
+   "topic": "wearable",
+   "sources": [
+    {
+     "title": "Tiny magnets deep inside the brain could transform Parkinson’s treatment",
+     "link": "https://www.sciencedaily.com/releases/2026/11/261116023354.htm",
+     "source": "sciencedaily-sports"
+    },
+    {
+     "title": "New wearable ultrasound patch boosts REM sleep without drugs or surgery",
+     "link": "https://www.sciencedaily.com/releases/2026/11/261116014842.htm",
+     "source": "sciencedaily-sports"
+    }
+   ],
+   "baseline": {
+    "momentum": 20,
+    "recent": 15,
+    "previous": 10,
+    "evidence_30": 10
+   }
+  },
+  {
+   "headline": "heart rate: segnale da osservare",
+   "facts": [
+    "3 evidenze negli ultimi 45 giorni contro 3 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 1."
+   ],
+   "hypotheses": [
+    "Segnale ancora debole: potrebbe essere rumore. Va solo tenuto d'occhio."
+   ],
+   "scenarios": [
+    {
+     "label": "Si conferma",
+     "text": "Nei prossimi giorni compaiono nuove evidenze da fonti diverse."
+    },
+    {
+     "label": "Svanisce",
+     "text": "Non arrivano altre evidenze e il segnale scompare."
+    }
+   ],
+   "confidence": "bassa",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "sport",
+   "sector_name": "Sport e innovazione",
+   "topic": "heart rate",
+   "sources": [],
+   "baseline": {
+    "momentum": null,
+    "recent": 3,
+    "previous": 3,
+    "evidence_30": 2
+   }
+  }
+ ]
+}
