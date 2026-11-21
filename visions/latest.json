@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "generated_by": "regole",
  "visions": [
   {
@@ -30,33 +30,33 @@
    "topic": "reasoning",
    "sources": [
     {
-     "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
-     "link": "https://arxiv.org/abs/2611.25043",
+     "title": "Multi-Objective Structured Pruning of LLMs for Latency and Model Size Optimization",
+     "link": "https://arxiv.org/abs/2607.22583",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "MKA: Evaluating Multimodal Knowledge Agents on end-to-end professional tasks",
-     "link": "https://arxiv.org/abs/2611.25228",
+     "title": "Budget Internalization: Fixed-Budget RLVR Trades Test-Time Scaling for In-Budget Accuracy",
+     "link": "https://arxiv.org/abs/2611.26172",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Stop Going in Circles:Loop-Triggered Routing for System 1 Decision Agents",
-     "link": "https://arxiv.org/abs/2611.25363",
+     "title": "ClosureBench: A Benchmark for Reasoning under Closure Assumptions",
+     "link": "https://arxiv.org/abs/2611.26335",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Falsifiable Compositional Reasoning in Time Series Forecasting",
-     "link": "https://arxiv.org/abs/2611.25388",
+     "title": "REACT: Representational Early Analysis and Control of Chain-of-Thought Trajectories",
+     "link": "https://arxiv.org/abs/2610.32113",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "LM-based Personalized Travel Planner",
-     "link": "https://arxiv.org/abs/2611.25531",
+     "title": "VLRS-Bench: A Vision-Language Reasoning Benchmark for Remote Sensing",
+     "link": "https://arxiv.org/abs/2602.07045",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Diagnosis is not a policy: a state-transition audit of caoability-conditioned test-time inference",
-     "link": "https://arxiv.org/abs/2611.25566",
+     "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+     "link": "https://arxiv.org/abs/2611.26444",
      "source": "arxiv-cs-ai"
     }
    ],
@@ -100,11 +100,6 @@
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents",
-     "link": "https://arxiv.org/abs/2611.25066",
-     "source": "arxiv-cs-ai"
-    },
-    {
      "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
      "link": "https://arxiv.org/abs/2611.26601",
      "source": "arxiv-cs-ai"
@@ -112,6 +107,11 @@
     {
      "title": "Why Trust Your Agent? Empirical Security Gains from TRiSM-Guided Agentic Workflows in Healthcare",
      "link": "https://arxiv.org/abs/2606.28666",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "DVBench: End-to-End Benchmark for Real-World UVM Design Verification Agents",
+     "link": "https://arxiv.org/abs/2611.25066",
      "source": "arxiv-cs-ai"
     },
     {
@@ -135,7 +135,7 @@
   {
    "headline": "supply chain: in crescita",
    "facts": [
-    "69 evidenze negli ultimi 45 giorni contro 53 nei 45 precedenti.",
+    "71 evidenze negli ultimi 45 giorni contro 55 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +13 (scala da -100 a +100)."
    ],
@@ -192,15 +192,15 @@
    ],
    "baseline": {
     "momentum": 13,
-    "recent": 69,
-    "previous": 53,
-    "evidence_30": 51
+    "recent": 71,
+    "previous": 55,
+    "evidence_30": 52
    }
   },
   {
    "headline": "warehouse: segnale da osservare",
    "facts": [
-    "22 evidenze negli ultimi 45 giorni contro 13 nei 45 precedenti.",
+    "21 evidenze negli ultimi 45 giorni contro 13 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -225,7 +225,7 @@
    "sources": [],
    "baseline": {
     "momentum": null,
-    "recent": 22,
+    "recent": 21,
     "previous": 13,
     "evidence_30": 18
    }
@@ -233,9 +233,9 @@
   {
    "headline": "wearable: in crescita",
    "facts": [
-    "15 evidenze negli ultimi 45 giorni contro 10 nei 45 precedenti.",
+    "16 evidenze negli ultimi 45 giorni contro 10 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +20 (scala da -100 a +100)."
+    "Momentum calcolato: +23 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -269,10 +269,10 @@
     }
    ],
    "baseline": {
-    "momentum": 20,
-    "recent": 15,
+    "momentum": 23,
+    "recent": 16,
     "previous": 10,
-    "evidence_30": 10
+    "evidence_30": 11
    }
   },
   {

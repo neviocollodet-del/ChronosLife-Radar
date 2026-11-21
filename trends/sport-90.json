@@ -6,11 +6,11 @@
  "items": [
   {
    "topic": "wearable",
-   "evidence_count": 25,
+   "evidence_count": 26,
    "independent_source_labels": 2,
-   "recent_count": 15,
+   "recent_count": 16,
    "previous_count": 10,
-   "momentum": 20,
+   "momentum": 23,
    "score_status": "ok"
   },
   {

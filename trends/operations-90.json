@@ -6,18 +6,18 @@
  "items": [
   {
    "topic": "supply chain",
-   "evidence_count": 122,
+   "evidence_count": 126,
    "independent_source_labels": 2,
-   "recent_count": 69,
-   "previous_count": 53,
+   "recent_count": 71,
+   "previous_count": 55,
    "momentum": 13,
    "score_status": "ok"
   },
   {
    "topic": "warehouse",
-   "evidence_count": 35,
+   "evidence_count": 34,
    "independent_source_labels": 1,
-   "recent_count": 22,
+   "recent_count": 21,
    "previous_count": 13,
    "momentum": null,
    "score_status": "dati insufficienti"
