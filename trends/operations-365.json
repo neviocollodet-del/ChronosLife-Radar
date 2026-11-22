@@ -6,18 +6,18 @@
  "items": [
   {
    "topic": "supply chain",
-   "evidence_count": 723,
+   "evidence_count": 724,
    "independent_source_labels": 2,
-   "recent_count": 287,
-   "previous_count": 436,
-   "momentum": -21,
+   "recent_count": 282,
+   "previous_count": 442,
+   "momentum": -22,
    "score_status": "ok"
   },
   {
    "topic": "logistics",
-   "evidence_count": 145,
+   "evidence_count": 144,
    "independent_source_labels": 2,
-   "recent_count": 59,
+   "recent_count": 58,
    "previous_count": 86,
    "momentum": -19,
    "score_status": "ok"

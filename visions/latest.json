@@ -1,5 +1,5 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "generated_by": "regole",
  "visions": [
   {
@@ -135,9 +135,9 @@
   {
    "headline": "supply chain: in crescita",
    "facts": [
-    "71 evidenze negli ultimi 45 giorni contro 55 nei 45 precedenti.",
+    "72 evidenze negli ultimi 45 giorni contro 56 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +13 (scala da -100 a +100)."
+    "Momentum calcolato: +12 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -191,16 +191,16 @@
     }
    ],
    "baseline": {
-    "momentum": 13,
-    "recent": 71,
-    "previous": 55,
-    "evidence_30": 52
+    "momentum": 12,
+    "recent": 72,
+    "previous": 56,
+    "evidence_30": 53
    }
   },
   {
    "headline": "warehouse: segnale da osservare",
    "facts": [
-    "21 evidenze negli ultimi 45 giorni contro 13 nei 45 precedenti.",
+    "21 evidenze negli ultimi 45 giorni contro 12 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -226,7 +226,7 @@
    "baseline": {
     "momentum": null,
     "recent": 21,
-    "previous": 13,
+    "previous": 12,
     "evidence_30": 18
    }
   },
