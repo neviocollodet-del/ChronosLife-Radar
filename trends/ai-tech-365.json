@@ -2,69 +2,69 @@
  "sector_id": "ai-tech",
  "window_days": 365,
  "data_status": "ok",
- "items_scanned": 961,
+ "items_scanned": 1260,
  "items": [
   {
    "topic": "agentic",
-   "evidence_count": 3904,
+   "evidence_count": 3962,
    "independent_source_labels": 4,
-   "recent_count": 1964,
-   "previous_count": 1940,
-   "momentum": 1,
+   "recent_count": 2012,
+   "previous_count": 1950,
+   "momentum": 2,
    "score_status": "ok"
   },
   {
    "topic": "AI agent",
-   "evidence_count": 3481,
+   "evidence_count": 3495,
    "independent_source_labels": 4,
-   "recent_count": 1563,
-   "previous_count": 1918,
+   "recent_count": 1572,
+   "previous_count": 1923,
    "momentum": -10,
    "score_status": "ok"
   },
   {
    "topic": "robotics",
-   "evidence_count": 600,
+   "evidence_count": 614,
    "independent_source_labels": 4,
-   "recent_count": 365,
-   "previous_count": 235,
-   "momentum": 22,
+   "recent_count": 377,
+   "previous_count": 237,
+   "momentum": 23,
    "score_status": "ok"
   },
   {
    "topic": "multimodal",
-   "evidence_count": 499,
+   "evidence_count": 574,
    "independent_source_labels": 4,
-   "recent_count": 317,
-   "previous_count": 182,
-   "momentum": 27,
-   "score_status": "ok"
-  },
-  {
-   "topic": "fine-tuning",
-   "evidence_count": 427,
-   "independent_source_labels": 4,
-   "recent_count": 241,
-   "previous_count": 186,
-   "momentum": 13,
+   "recent_count": 391,
+   "previous_count": 183,
+   "momentum": 36,
    "score_status": "ok"
   },
   {
    "topic": "reasoning",
-   "evidence_count": 395,
+   "evidence_count": 520,
    "independent_source_labels": 3,
-   "recent_count": 392,
+   "recent_count": 517,
    "previous_count": 3,
-   "momentum": 98,
+   "momentum": 99,
+   "score_status": "ok"
+  },
+  {
+   "topic": "fine-tuning",
+   "evidence_count": 491,
+   "independent_source_labels": 4,
+   "recent_count": 305,
+   "previous_count": 186,
+   "momentum": 24,
    "score_status": "ok"
   },
   {
    "topic": "humanoid",
-   "evidence_count": 353,
+   "evidence_count": 367,
    "independent_source_labels": 3,
-   "recent_count": 195,
+   "recent_count": 209,
    "previous_count": 158,
-   "momentum": 10,
+   "momentum": 14,
    "score_status": "ok"
   },
   {
@@ -78,18 +78,18 @@
   },
   {
    "topic": "automation",
-   "evidence_count": 33,
+   "evidence_count": 37,
    "independent_source_labels": 2,
-   "recent_count": 33,
+   "recent_count": 37,
    "previous_count": 0,
    "momentum": 100,
    "score_status": "ok"
   },
   {
    "topic": "RAG",
-   "evidence_count": 26,
+   "evidence_count": 34,
    "independent_source_labels": 1,
-   "recent_count": 26,
+   "recent_count": 34,
    "previous_count": 0,
    "momentum": null,
    "score_status": "dati insufficienti"

@@ -3,37 +3,42 @@
   {
    "a": "multimodal",
    "b": "reasoning",
-   "count": 51
+   "count": 70
   },
   {
    "a": "agentic",
    "b": "reasoning",
-   "count": 50
+   "count": 62
   },
   {
    "a": "fine-tuning",
    "b": "reasoning",
-   "count": 21
+   "count": 31
   },
   {
    "a": "agentic",
    "b": "multimodal",
-   "count": 19
+   "count": 26
   },
   {
    "a": "agentic",
    "b": "automation",
-   "count": 12
+   "count": 13
   },
   {
    "a": "reasoning",
+   "b": "robotics",
+   "count": 11
+  },
+  {
+   "a": "agentic",
    "b": "robotics",
    "count": 10
   },
   {
    "a": "fine-tuning",
    "b": "multimodal",
-   "count": 7
+   "count": 10
   },
   {
    "a": "RAG",
@@ -46,18 +51,33 @@
    "count": 6
   },
   {
-   "a": "agentic",
-   "b": "robotics",
-   "count": 6
-  },
-  {
    "a": "automation",
    "b": "reasoning",
    "count": 5
   },
   {
+   "a": "multimodal",
+   "b": "robotics",
+   "count": 5
+  },
+  {
    "a": "AI agent",
    "b": "reasoning",
+   "count": 4
+  },
+  {
+   "a": "RAG",
+   "b": "multimodal",
+   "count": 4
+  },
+  {
+   "a": "agentic",
+   "b": "fine-tuning",
+   "count": 4
+  },
+  {
+   "a": "humanoid",
+   "b": "robotics",
    "count": 4
   },
   {
@@ -71,22 +91,7 @@
    "count": 3
   },
   {
-   "a": "humanoid",
-   "b": "robotics",
-   "count": 3
-  },
-  {
-   "a": "multimodal",
-   "b": "robotics",
-   "count": 3
-  },
-  {
    "a": "RAG",
-   "b": "multimodal",
-   "count": 2
-  },
-  {
-   "a": "agentic",
    "b": "fine-tuning",
    "count": 2
   },

@@ -1,11 +1,11 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "generated_by": "regole",
  "visions": [
   {
    "headline": "reasoning: in crescita",
    "facts": [
-    "392 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "517 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -30,47 +30,47 @@
    "topic": "reasoning",
    "sources": [
     {
-     "title": "Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF",
-     "link": "https://arxiv.org/abs/2611.26794",
+     "title": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
+     "link": "https://arxiv.org/abs/2611.28239",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Beyond Demographic Discrimination: Benchmarking Normative-Descriptive Calibration in LLMs",
-     "link": "https://arxiv.org/abs/2611.26870",
+     "title": "Temporal Logic Tensor Networks: Foundations of Temporal Reasoning in Neural Networks",
+     "link": "https://arxiv.org/abs/2611.28277",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Disentangling Verbalized Evaluation Awareness and Refusal through Neuron-Level Intervention",
-     "link": "https://arxiv.org/abs/2611.27032",
+     "title": "Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers",
+     "link": "https://arxiv.org/abs/2611.28285",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Writing Weights or Training Them? Spatial Reasoning through Weight-Space Programming and Low-Rank Adaptation",
-     "link": "https://arxiv.org/abs/2611.27089",
+     "title": "Decision models for UAVBench and the viability of edge deployment",
+     "link": "https://arxiv.org/abs/2611.28331",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Reasoning in Two Dimensions: Quantifying Chain-of-Thought Faithfulness and Efficiency",
-     "link": "https://arxiv.org/abs/2611.27100",
+     "title": "Schedule, Rank, Profile: Continuous Evaluation of LLM Agents in Games",
+     "link": "https://arxiv.org/abs/2611.28368",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Learning Adaptive Defense Strategies: Fine-Tuned LLMs for Network Security Games under Network Mobility",
-     "link": "https://arxiv.org/abs/2611.27180",
+     "title": "Improving the Improver: Semantic PID Control for Medical Agent Self-Improvement",
+     "link": "https://arxiv.org/abs/2611.28680",
      "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 392,
+    "recent": 517,
     "previous": 0,
-    "evidence_30": 392
+    "evidence_30": 517
    }
   },
   {
    "headline": "automation: in crescita",
    "facts": [
-    "33 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "37 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -95,8 +95,23 @@
    "topic": "automation",
    "sources": [
     {
-     "title": "EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
-     "link": "https://arxiv.org/abs/2611.27196",
+     "title": "SMAD: A Semantics-Guided Multi-Agent Framework for Unsupervised Time-Series Anomaly Detection",
+     "link": "https://arxiv.org/abs/2611.28348",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Human-in-the-Loop Runbook Improvement with Agentic Support Automation",
+     "link": "https://arxiv.org/abs/2611.28441",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
+     "link": "https://arxiv.org/abs/2611.29619",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "KnowMe Paper Radar: Lightweight Discovery of Promising Papers in the Age of Autoresearch",
+     "link": "https://arxiv.org/abs/2611.23702",
      "source": "arxiv-cs-ai"
     },
     {
@@ -105,39 +120,24 @@
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Separating Automation Gains from Agent Contributions in AI-Assisted Model Validation",
-     "link": "https://arxiv.org/abs/2611.27094",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "TopoPilot: Reliable Conversational Workflow Automation for Topological Data Analysis and Visualization",
-     "link": "https://arxiv.org/abs/2603.25063",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution",
-     "link": "https://arxiv.org/abs/2605.11229",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "SiliconGym: A Versatile Reinforcement Learning Environment for Agentic EDA",
-     "link": "https://arxiv.org/abs/2611.25658",
+     "title": "EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
+     "link": "https://arxiv.org/abs/2611.27196",
      "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 33,
+    "recent": 37,
     "previous": 0,
-    "evidence_30": 33
+    "evidence_30": 37
    }
   },
   {
    "headline": "supply chain: in crescita",
    "facts": [
-    "72 evidenze negli ultimi 45 giorni contro 53 nei 45 precedenti.",
+    "73 evidenze negli ultimi 45 giorni contro 53 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +15 (scala da -100 a +100)."
+    "Momentum calcolato: +16 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -191,16 +191,16 @@
     }
    ],
    "baseline": {
-    "momentum": 15,
-    "recent": 72,
+    "momentum": 16,
+    "recent": 73,
     "previous": 53,
-    "evidence_30": 51
+    "evidence_30": 52
    }
   },
   {
    "headline": "warehouse: segnale da osservare",
    "facts": [
-    "20 evidenze negli ultimi 45 giorni contro 13 nei 45 precedenti.",
+    "20 evidenze negli ultimi 45 giorni contro 12 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -226,16 +226,16 @@
    "baseline": {
     "momentum": null,
     "recent": 20,
-    "previous": 13,
+    "previous": 12,
     "evidence_30": 17
    }
   },
   {
    "headline": "wearable: in crescita",
    "facts": [
-    "16 evidenze negli ultimi 45 giorni contro 10 nei 45 precedenti.",
+    "16 evidenze negli ultimi 45 giorni contro 9 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +23 (scala da -100 a +100)."
+    "Momentum calcolato: +28 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -269,9 +269,9 @@
     }
    ],
    "baseline": {
-    "momentum": 23,
+    "momentum": 28,
     "recent": 16,
-    "previous": 10,
+    "previous": 9,
     "evidence_30": 11
    }
   },
