@@ -1,11 +1,11 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "generated_by": "regole",
  "visions": [
   {
    "headline": "reasoning: in crescita",
    "facts": [
-    "517 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "584 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -30,47 +30,47 @@
    "topic": "reasoning",
    "sources": [
     {
-     "title": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
-     "link": "https://arxiv.org/abs/2611.28239",
+     "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+     "link": "https://arxiv.org/abs/2611.31346",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Temporal Logic Tensor Networks: Foundations of Temporal Reasoning in Neural Networks",
-     "link": "https://arxiv.org/abs/2611.28277",
+     "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+     "link": "https://arxiv.org/abs/2611.31427",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Specialized Large Language Models for Markovian Reasoning: Structural Cache Compression, Transition Pretraining, and Dual-Loop Transformers",
-     "link": "https://arxiv.org/abs/2611.28285",
+     "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+     "link": "https://arxiv.org/abs/2611.31475",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Decision models for UAVBench and the viability of edge deployment",
-     "link": "https://arxiv.org/abs/2611.28331",
+     "title": "Monitorable-by-design architectures for a post-Astra world: a compartmentalization-based approach",
+     "link": "https://arxiv.org/abs/2611.31610",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Schedule, Rank, Profile: Continuous Evaluation of LLM Agents in Games",
-     "link": "https://arxiv.org/abs/2611.28368",
+     "title": "Self-Improving Long-Horizon Reasoning by Learning Summaries from Local Continuations",
+     "link": "https://arxiv.org/abs/2611.31621",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Improving the Improver: Semantic PID Control for Medical Agent Self-Improvement",
-     "link": "https://arxiv.org/abs/2611.28680",
+     "title": "GaokaoMathGen: Chinese Gaokao Mathematics Finale Problem Generation Controlled by Latent Reasoning Structures",
+     "link": "https://arxiv.org/abs/2611.31823",
      "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 517,
+    "recent": 584,
     "previous": 0,
-    "evidence_30": 517
+    "evidence_30": 584
    }
   },
   {
    "headline": "automation: in crescita",
    "facts": [
-    "37 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "40 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -95,13 +95,23 @@
    "topic": "automation",
    "sources": [
     {
-     "title": "SMAD: A Semantics-Guided Multi-Agent Framework for Unsupervised Time-Series Anomaly Detection",
-     "link": "https://arxiv.org/abs/2611.28348",
+     "title": "RecurSciBench: Benchmarking Recursive Self-Improvement in Data-Driven Scientific Research",
+     "link": "https://arxiv.org/abs/2611.32508",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Human-in-the-Loop Runbook Improvement with Agentic Support Automation",
-     "link": "https://arxiv.org/abs/2611.28441",
+     "title": "Are Web Agents Still Detectable? Stress-Testing Bot Defenses with Coordinated Evasion",
+     "link": "https://arxiv.org/abs/2611.31962",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "TACTUS: Unifying Surgical Action Understanding in Time and Space",
+     "link": "https://arxiv.org/abs/2611.31956",
+     "source": "arxiv-cs-ro"
+    },
+    {
+     "title": "SMAD: A Semantics-Guided Multi-Agent Framework for Unsupervised Time-Series Anomaly Detection",
+     "link": "https://arxiv.org/abs/2611.28348",
      "source": "arxiv-cs-ai"
     },
     {
@@ -110,34 +120,24 @@
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "KnowMe Paper Radar: Lightweight Discovery of Promising Papers in the Age of Autoresearch",
-     "link": "https://arxiv.org/abs/2611.23702",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "MetaRigor: From Agentic Automation to Verifiable End-to-End Meta-Analysis Through Scientific Decision Boundaries",
-     "link": "https://arxiv.org/abs/2611.27713",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
-     "link": "https://arxiv.org/abs/2611.27196",
+     "title": "Human-in-the-Loop Runbook Improvement with Agentic Support Automation",
+     "link": "https://arxiv.org/abs/2611.28441",
      "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 37,
+    "recent": 40,
     "previous": 0,
-    "evidence_30": 37
+    "evidence_30": 40
    }
   },
   {
    "headline": "supply chain: in crescita",
    "facts": [
-    "73 evidenze negli ultimi 45 giorni contro 53 nei 45 precedenti.",
+    "72 evidenze negli ultimi 45 giorni contro 53 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +16 (scala da -100 a +100)."
+    "Momentum calcolato: +15 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -159,6 +159,11 @@
    "sector_name": "Industria e Operations",
    "topic": "supply chain",
    "sources": [
+    {
+     "title": "Procter & Gamble plans supply chain workforce cuts as automation expands",
+     "link": "https://www.supplychaindive.com/news/procter-gamble-plans-supply-chain-workforce-cuts-as-automation-expands/875533/",
+     "source": "supplychaindive"
+    },
     {
      "title": "Meta strikes deals to boost low-carbon materials production",
      "link": "https://www.supplychaindive.com/news/meta-strikes-deals-to-boost-low-carbon-materials-production/875095/",
@@ -183,16 +188,11 @@
      "title": "From cost center to growth engine: The supply chain value shift",
      "link": "https://www.supplychaindive.com/spons/from-cost-center-to-growth-engine-the-supply-chain-value-shift/874220/",
      "source": "supplychaindive"
-    },
-    {
-     "title": "BMW announces new battery supply deals for the US, Europe",
-     "link": "https://www.supplychaindive.com/news/bmw-announces-new-battery-supply-deals-for-the-us-europe/874409/",
-     "source": "supplychaindive"
     }
    ],
    "baseline": {
-    "momentum": 16,
-    "recent": 73,
+    "momentum": 15,
+    "recent": 72,
     "previous": 53,
     "evidence_30": 52
    }
@@ -233,9 +233,9 @@
   {
    "headline": "wearable: in crescita",
    "facts": [
-    "16 evidenze negli ultimi 45 giorni contro 9 nei 45 precedenti.",
+    "18 evidenze negli ultimi 45 giorni contro 9 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +28 (scala da -100 a +100)."
+    "Momentum calcolato: +33 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -269,16 +269,16 @@
     }
    ],
    "baseline": {
-    "momentum": 28,
-    "recent": 16,
+    "momentum": 33,
+    "recent": 18,
     "previous": 9,
-    "evidence_30": 11
+    "evidence_30": 13
    }
   },
   {
    "headline": "heart rate: segnale da osservare",
    "facts": [
-    "3 evidenze negli ultimi 45 giorni contro 3 nei 45 precedenti.",
+    "2 evidenze negli ultimi 45 giorni contro 4 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -303,8 +303,8 @@
    "sources": [],
    "baseline": {
     "momentum": null,
-    "recent": 3,
-    "previous": 3,
+    "recent": 2,
+    "previous": 4,
     "evidence_30": 1
    }
   }

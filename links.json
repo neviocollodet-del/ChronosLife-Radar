@@ -3,27 +3,32 @@
   {
    "a": "multimodal",
    "b": "reasoning",
-   "count": 70
+   "count": 86
   },
   {
    "a": "agentic",
    "b": "reasoning",
-   "count": 62
+   "count": 66
   },
   {
    "a": "fine-tuning",
    "b": "reasoning",
-   "count": 31
+   "count": 38
   },
   {
    "a": "agentic",
    "b": "multimodal",
-   "count": 26
+   "count": 27
   },
   {
    "a": "agentic",
    "b": "automation",
    "count": 13
+  },
+  {
+   "a": "fine-tuning",
+   "b": "multimodal",
+   "count": 11
   },
   {
    "a": "reasoning",
@@ -36,9 +41,9 @@
    "count": 10
   },
   {
-   "a": "fine-tuning",
-   "b": "multimodal",
-   "count": 10
+   "a": "RAG",
+   "b": "reasoning",
+   "count": 7
   },
   {
    "a": "RAG",
@@ -46,8 +51,8 @@
    "count": 6
   },
   {
-   "a": "RAG",
-   "b": "reasoning",
+   "a": "agentic",
+   "b": "fine-tuning",
    "count": 6
   },
   {
@@ -68,11 +73,6 @@
   {
    "a": "RAG",
    "b": "multimodal",
-   "count": 4
-  },
-  {
-   "a": "agentic",
-   "b": "fine-tuning",
    "count": 4
   },
   {
@@ -126,6 +126,12 @@
    "count": 1
   }
  ],
- "operations": [],
+ "operations": [
+  {
+   "a": "automation",
+   "b": "supply chain",
+   "count": 1
+  }
+ ],
  "sport": []
 }

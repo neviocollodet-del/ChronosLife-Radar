@@ -1,12 +1,12 @@
 {
- "updated": 1795532064,
+ "updated": 1795616798,
  "sources": {
-  "arxiv-cs-ai": 219,
-  "arxiv-cs-ro": 80,
+  "arxiv-cs-ai": 117,
+  "arxiv-cs-ro": 35,
   "huggingface-blog": 35,
-  "supplychaindive": 0,
-  "manufacturingdive": 2,
-  "dcrainmaker": 0,
+  "supplychaindive": 1,
+  "manufacturingdive": 0,
+  "dcrainmaker": 1,
   "sciencedaily-sports": 0,
   "hackernews": {
    "ok": 60,
