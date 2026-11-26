@@ -2,15 +2,15 @@
  "sector_id": "operations",
  "window_days": 30,
  "data_status": "insufficient",
- "items_scanned": 14,
+ "items_scanned": 16,
  "items": [
   {
    "topic": "supply chain",
-   "evidence_count": 52,
+   "evidence_count": 49,
    "independent_source_labels": 2,
    "recent_count": 28,
-   "previous_count": 24,
-   "momentum": 8,
+   "previous_count": 21,
+   "momentum": 14,
    "score_status": "ok"
   },
   {
@@ -26,9 +26,9 @@
    "topic": "logistics",
    "evidence_count": 5,
    "independent_source_labels": 2,
-   "recent_count": 3,
-   "previous_count": 2,
-   "momentum": 20,
+   "recent_count": 4,
+   "previous_count": 1,
+   "momentum": 60,
    "score_status": "ok"
   },
   {

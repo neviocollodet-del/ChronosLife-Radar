@@ -1,11 +1,11 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "generated_by": "regole",
  "visions": [
   {
    "headline": "reasoning: in crescita",
    "facts": [
-    "584 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "643 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -30,47 +30,47 @@
    "topic": "reasoning",
    "sources": [
     {
-     "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
-     "link": "https://arxiv.org/abs/2611.31346",
+     "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+     "link": "https://arxiv.org/abs/2611.33263",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
-     "link": "https://arxiv.org/abs/2611.31427",
+     "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+     "link": "https://arxiv.org/abs/2611.33303",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
-     "link": "https://arxiv.org/abs/2611.31475",
+     "title": "Collaborative Language Models for Semantic IoT Data Processing: Validation through Zero-Shot Human Activity Recognition",
+     "link": "https://arxiv.org/abs/2611.33411",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Monitorable-by-design architectures for a post-Astra world: a compartmentalization-based approach",
-     "link": "https://arxiv.org/abs/2611.31610",
+     "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
+     "link": "https://arxiv.org/abs/2611.33470",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Self-Improving Long-Horizon Reasoning by Learning Summaries from Local Continuations",
-     "link": "https://arxiv.org/abs/2611.31621",
+     "title": "Learning to Reason in Real-Time",
+     "link": "https://arxiv.org/abs/2611.33513",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "GaokaoMathGen: Chinese Gaokao Mathematics Finale Problem Generation Controlled by Latent Reasoning Structures",
-     "link": "https://arxiv.org/abs/2611.31823",
+     "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+     "link": "https://arxiv.org/abs/2611.33563",
      "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 584,
+    "recent": 643,
     "previous": 0,
-    "evidence_30": 584
+    "evidence_30": 643
    }
   },
   {
    "headline": "automation: in crescita",
    "facts": [
-    "40 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "47 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +100 (scala da -100 a +100)."
    ],
@@ -95,49 +95,49 @@
    "topic": "automation",
    "sources": [
     {
-     "title": "RecurSciBench: Benchmarking Recursive Self-Improvement in Data-Driven Scientific Research",
-     "link": "https://arxiv.org/abs/2611.32508",
+     "title": "Confidence scores for gated automation of large language models",
+     "link": "https://arxiv.org/abs/2611.33394",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Are Web Agents Still Detectable? Stress-Testing Bot Defenses with Coordinated Evasion",
-     "link": "https://arxiv.org/abs/2611.31962",
+     "title": "On Utilization of Edge-AI for condition monitoring towards predictive maintenance: A use case in dairy processing using explainable AI",
+     "link": "https://arxiv.org/abs/2611.34563",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "TACTUS: Unifying Surgical Action Understanding in Time and Space",
-     "link": "https://arxiv.org/abs/2611.31956",
+     "title": "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk",
+     "link": "https://arxiv.org/abs/2611.34099",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "A Framework for Closed-Loop Robotic Assembly, Alignment and Self-Recovery of Precision Optical Systems",
+     "link": "https://arxiv.org/abs/2603.21496",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Integration of Vision-Language-Action Control for Autonomous Forklift Unloading with Limited Real-World Data",
+     "link": "https://arxiv.org/abs/2611.33880",
      "source": "arxiv-cs-ro"
     },
     {
-     "title": "SMAD: A Semantics-Guided Multi-Agent Framework for Unsupervised Time-Series Anomaly Detection",
-     "link": "https://arxiv.org/abs/2611.28348",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
-     "link": "https://arxiv.org/abs/2611.29619",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "Human-in-the-Loop Runbook Improvement with Agentic Support Automation",
-     "link": "https://arxiv.org/abs/2611.28441",
-     "source": "arxiv-cs-ai"
+     "title": "A Framework for Closed-Loop Robotic Assembly, Alignment and Self-Recovery of Precision Optical Systems",
+     "link": "https://arxiv.org/abs/2603.21496",
+     "source": "arxiv-cs-ro"
     }
    ],
    "baseline": {
     "momentum": 100,
-    "recent": 40,
+    "recent": 47,
     "previous": 0,
-    "evidence_30": 40
+    "evidence_30": 47
    }
   },
   {
    "headline": "supply chain: in crescita",
    "facts": [
-    "72 evidenze negli ultimi 45 giorni contro 53 nei 45 precedenti.",
+    "73 evidenze negli ultimi 45 giorni contro 48 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +15 (scala da -100 a +100)."
+    "Momentum calcolato: +21 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -159,6 +159,11 @@
    "sector_name": "Industria e Operations",
    "topic": "supply chain",
    "sources": [
+    {
+     "title": "PETA alleges animal abuse in PepsiCo’s supply chain",
+     "link": "https://www.supplychaindive.com/news/peta-alleges-animal-abuse-in-pepsicos-supply-chain/875654/",
+     "source": "supplychaindive"
+    },
     {
      "title": "Procter & Gamble plans supply chain workforce cuts as automation expands",
      "link": "https://www.supplychaindive.com/news/procter-gamble-plans-supply-chain-workforce-cuts-as-automation-expands/875533/",
@@ -183,24 +188,19 @@
      "title": "Business continuity starts before supply chain disruption",
      "link": "https://www.supplychaindive.com/spons/business-continuity-starts-before-supply-chain-disruption/874344/",
      "source": "supplychaindive"
-    },
-    {
-     "title": "From cost center to growth engine: The supply chain value shift",
-     "link": "https://www.supplychaindive.com/spons/from-cost-center-to-growth-engine-the-supply-chain-value-shift/874220/",
-     "source": "supplychaindive"
     }
    ],
    "baseline": {
-    "momentum": 15,
-    "recent": 72,
-    "previous": 53,
-    "evidence_30": 52
+    "momentum": 21,
+    "recent": 73,
+    "previous": 48,
+    "evidence_30": 49
    }
   },
   {
    "headline": "warehouse: segnale da osservare",
    "facts": [
-    "20 evidenze negli ultimi 45 giorni contro 12 nei 45 precedenti.",
+    "19 evidenze negli ultimi 45 giorni contro 13 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 1."
    ],
    "hypotheses": [
@@ -225,8 +225,8 @@
    "sources": [],
    "baseline": {
     "momentum": null,
-    "recent": 20,
-    "previous": 12,
+    "recent": 19,
+    "previous": 13,
     "evidence_30": 17
    }
   },

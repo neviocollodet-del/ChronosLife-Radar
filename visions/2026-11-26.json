@@ -1,0 +1,312 @@
+{
+ "date": "2026-11-26",
+ "generated_by": "regole",
+ "visions": [
+  {
+   "headline": "reasoning: in crescita",
+   "facts": [
+    "643 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +100 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "ai-tech",
+   "sector_name": "AI e tecnologia",
+   "topic": "reasoning",
+   "sources": [
+    {
+     "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+     "link": "https://arxiv.org/abs/2611.33263",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+     "link": "https://arxiv.org/abs/2611.33303",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Collaborative Language Models for Semantic IoT Data Processing: Validation through Zero-Shot Human Activity Recognition",
+     "link": "https://arxiv.org/abs/2611.33411",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
+     "link": "https://arxiv.org/abs/2611.33470",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Learning to Reason in Real-Time",
+     "link": "https://arxiv.org/abs/2611.33513",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+     "link": "https://arxiv.org/abs/2611.33563",
+     "source": "arxiv-cs-ai"
+    }
+   ],
+   "baseline": {
+    "momentum": 100,
+    "recent": 643,
+    "previous": 0,
+    "evidence_30": 643
+   }
+  },
+  {
+   "headline": "automation: in crescita",
+   "facts": [
+    "47 evidenze negli ultimi 45 giorni contro 0 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +100 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "ai-tech",
+   "sector_name": "AI e tecnologia",
+   "topic": "automation",
+   "sources": [
+    {
+     "title": "Confidence scores for gated automation of large language models",
+     "link": "https://arxiv.org/abs/2611.33394",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "On Utilization of Edge-AI for condition monitoring towards predictive maintenance: A use case in dairy processing using explainable AI",
+     "link": "https://arxiv.org/abs/2611.34563",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk",
+     "link": "https://arxiv.org/abs/2611.34099",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "A Framework for Closed-Loop Robotic Assembly, Alignment and Self-Recovery of Precision Optical Systems",
+     "link": "https://arxiv.org/abs/2603.21496",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "Integration of Vision-Language-Action Control for Autonomous Forklift Unloading with Limited Real-World Data",
+     "link": "https://arxiv.org/abs/2611.33880",
+     "source": "arxiv-cs-ro"
+    },
+    {
+     "title": "A Framework for Closed-Loop Robotic Assembly, Alignment and Self-Recovery of Precision Optical Systems",
+     "link": "https://arxiv.org/abs/2603.21496",
+     "source": "arxiv-cs-ro"
+    }
+   ],
+   "baseline": {
+    "momentum": 100,
+    "recent": 47,
+    "previous": 0,
+    "evidence_30": 47
+   }
+  },
+  {
+   "headline": "supply chain: in crescita",
+   "facts": [
+    "73 evidenze negli ultimi 45 giorni contro 48 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +21 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "operations",
+   "sector_name": "Industria e Operations",
+   "topic": "supply chain",
+   "sources": [
+    {
+     "title": "PETA alleges animal abuse in PepsiCo’s supply chain",
+     "link": "https://www.supplychaindive.com/news/peta-alleges-animal-abuse-in-pepsicos-supply-chain/875654/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "Procter & Gamble plans supply chain workforce cuts as automation expands",
+     "link": "https://www.supplychaindive.com/news/procter-gamble-plans-supply-chain-workforce-cuts-as-automation-expands/875533/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "Meta strikes deals to boost low-carbon materials production",
+     "link": "https://www.supplychaindive.com/news/meta-strikes-deals-to-boost-low-carbon-materials-production/875095/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "Starbucks inventory availability at ‘all-time high’ with daily deliveries, CEO says",
+     "link": "https://www.supplychaindive.com/news/starbucks-inventory-availability-at-all-time-high-with-daily-deliveries/874923/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "Wrangler parent company plans to beef up inventory spending",
+     "link": "https://www.supplychaindive.com/news/wrangler-parent-company-plans-to-beef-up-inventory-spending/874783/",
+     "source": "supplychaindive"
+    },
+    {
+     "title": "Business continuity starts before supply chain disruption",
+     "link": "https://www.supplychaindive.com/spons/business-continuity-starts-before-supply-chain-disruption/874344/",
+     "source": "supplychaindive"
+    }
+   ],
+   "baseline": {
+    "momentum": 21,
+    "recent": 73,
+    "previous": 48,
+    "evidence_30": 49
+   }
+  },
+  {
+   "headline": "warehouse: segnale da osservare",
+   "facts": [
+    "19 evidenze negli ultimi 45 giorni contro 13 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 1."
+   ],
+   "hypotheses": [
+    "Segnale ancora debole: potrebbe essere rumore. Va solo tenuto d'occhio."
+   ],
+   "scenarios": [
+    {
+     "label": "Si conferma",
+     "text": "Nei prossimi giorni compaiono nuove evidenze da fonti diverse."
+    },
+    {
+     "label": "Svanisce",
+     "text": "Non arrivano altre evidenze e il segnale scompare."
+    }
+   ],
+   "confidence": "bassa",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "operations",
+   "sector_name": "Industria e Operations",
+   "topic": "warehouse",
+   "sources": [],
+   "baseline": {
+    "momentum": null,
+    "recent": 19,
+    "previous": 13,
+    "evidence_30": 17
+   }
+  },
+  {
+   "headline": "wearable: in crescita",
+   "facts": [
+    "18 evidenze negli ultimi 45 giorni contro 9 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 2.",
+    "Momentum calcolato: +33 (scala da -100 a +100)."
+   ],
+   "hypotheses": [
+    "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
+   ],
+   "scenarios": [
+    {
+     "label": "Prosegue",
+     "text": "Le evidenze continuano ad aumentare e l'argomento entra nel dibattito generale."
+    },
+    {
+     "label": "Si ferma",
+     "text": "Il picco era legato a pochi eventi e l'attenzione torna ai livelli precedenti."
+    }
+   ],
+   "confidence": "media",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "sport",
+   "sector_name": "Sport e innovazione",
+   "topic": "wearable",
+   "sources": [
+    {
+     "title": "Tiny magnets deep inside the brain could transform Parkinson’s treatment",
+     "link": "https://www.sciencedaily.com/releases/2026/11/261116023354.htm",
+     "source": "sciencedaily-sports"
+    },
+    {
+     "title": "New wearable ultrasound patch boosts REM sleep without drugs or surgery",
+     "link": "https://www.sciencedaily.com/releases/2026/11/261116014842.htm",
+     "source": "sciencedaily-sports"
+    }
+   ],
+   "baseline": {
+    "momentum": 33,
+    "recent": 18,
+    "previous": 9,
+    "evidence_30": 13
+   }
+  },
+  {
+   "headline": "heart rate: segnale da osservare",
+   "facts": [
+    "2 evidenze negli ultimi 45 giorni contro 4 nei 45 precedenti.",
+    "Fonti distinte che ne parlano: 1."
+   ],
+   "hypotheses": [
+    "Segnale ancora debole: potrebbe essere rumore. Va solo tenuto d'occhio."
+   ],
+   "scenarios": [
+    {
+     "label": "Si conferma",
+     "text": "Nei prossimi giorni compaiono nuove evidenze da fonti diverse."
+    },
+    {
+     "label": "Svanisce",
+     "text": "Non arrivano altre evidenze e il segnale scompare."
+    }
+   ],
+   "confidence": "bassa",
+   "limits": "Basato su conteggi di notizie da poche fonti pubbliche: non misura qualita' o impatto reale.",
+   "generated_by": "regole",
+   "sector_id": "sport",
+   "sector_name": "Sport e innovazione",
+   "topic": "heart rate",
+   "sources": [],
+   "baseline": {
+    "momentum": null,
+    "recent": 2,
+    "previous": 4,
+    "evidence_30": 1
+   }
+  }
+ ]
+}
