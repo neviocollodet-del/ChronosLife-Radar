@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "generated_by": "regole",
  "visions": [
   {
@@ -30,33 +30,33 @@
    "topic": "reasoning",
    "sources": [
     {
-     "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
-     "link": "https://arxiv.org/abs/2611.33263",
+     "title": "SecID: An LLM-Guided Framework for Threat-Aware Secondary Asset Identification with Quantitative RTL Analysis",
+     "link": "https://arxiv.org/abs/2611.33453",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
-     "link": "https://arxiv.org/abs/2611.33303",
+     "title": "RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies",
+     "link": "https://arxiv.org/abs/2611.34864",
+     "source": "arxiv-cs-ro"
+    },
+    {
+     "title": "AI Buckingham: Agentic Discovery of Dimensionless Scaling Laws Across Physical Regimes",
+     "link": "https://arxiv.org/abs/2611.33961",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Collaborative Language Models for Semantic IoT Data Processing: Validation through Zero-Shot Human Activity Recognition",
-     "link": "https://arxiv.org/abs/2611.33411",
+     "title": "ConceptARC at Scale: Studying Conceptual Understanding in Reasoning Models",
+     "link": "https://arxiv.org/abs/2611.06732",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
-     "link": "https://arxiv.org/abs/2611.33470",
+     "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+     "link": "https://arxiv.org/abs/2611.34813",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "Learning to Reason in Real-Time",
-     "link": "https://arxiv.org/abs/2611.33513",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
-     "link": "https://arxiv.org/abs/2611.33563",
+     "title": "Fine-Grained Instruction-Guided Graph Reasoning for Vision-and-Language Navigation",
+     "link": "https://arxiv.org/abs/2503.11006",
      "source": "arxiv-cs-ai"
     }
    ],
@@ -95,24 +95,14 @@
    "topic": "automation",
    "sources": [
     {
-     "title": "Confidence scores for gated automation of large language models",
-     "link": "https://arxiv.org/abs/2611.33394",
-     "source": "arxiv-cs-ai"
-    },
-    {
-     "title": "On Utilization of Edge-AI for condition monitoring towards predictive maintenance: A use case in dairy processing using explainable AI",
-     "link": "https://arxiv.org/abs/2611.34563",
-     "source": "arxiv-cs-ai"
-    },
-    {
      "title": "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk",
      "link": "https://arxiv.org/abs/2611.34099",
      "source": "arxiv-cs-ai"
     },
     {
-     "title": "A Framework for Closed-Loop Robotic Assembly, Alignment and Self-Recovery of Precision Optical Systems",
-     "link": "https://arxiv.org/abs/2603.21496",
-     "source": "arxiv-cs-ai"
+     "title": "Scalable Low-Cost Laboratory Automation: A Digital Twin-Integrated Robotic Platform for Autonomous Liquid Handling (RAINBOT)",
+     "link": "https://arxiv.org/abs/2607.20662",
+     "source": "arxiv-cs-ro"
     },
     {
      "title": "Integration of Vision-Language-Action Control for Autonomous Forklift Unloading with Limited Real-World Data",
@@ -123,6 +113,16 @@
      "title": "A Framework for Closed-Loop Robotic Assembly, Alignment and Self-Recovery of Precision Optical Systems",
      "link": "https://arxiv.org/abs/2603.21496",
      "source": "arxiv-cs-ro"
+    },
+    {
+     "title": "On Utilization of Edge-AI for condition monitoring towards predictive maintenance: A use case in dairy processing using explainable AI",
+     "link": "https://arxiv.org/abs/2611.34563",
+     "source": "arxiv-cs-ai"
+    },
+    {
+     "title": "A Framework for Closed-Loop Robotic Assembly, Alignment and Self-Recovery of Precision Optical Systems",
+     "link": "https://arxiv.org/abs/2603.21496",
+     "source": "arxiv-cs-ai"
     }
    ],
    "baseline": {
@@ -135,7 +135,7 @@
   {
    "headline": "supply chain: in crescita",
    "facts": [
-    "73 evidenze negli ultimi 45 giorni contro 48 nei 45 precedenti.",
+    "74 evidenze negli ultimi 45 giorni contro 48 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
     "Momentum calcolato: +21 (scala da -100 a +100)."
    ],
@@ -192,7 +192,7 @@
    ],
    "baseline": {
     "momentum": 21,
-    "recent": 73,
+    "recent": 74,
     "previous": 48,
     "evidence_30": 49
    }
@@ -227,15 +227,15 @@
     "momentum": null,
     "recent": 19,
     "previous": 13,
-    "evidence_30": 17
+    "evidence_30": 16
    }
   },
   {
    "headline": "wearable: in crescita",
    "facts": [
-    "18 evidenze negli ultimi 45 giorni contro 9 nei 45 precedenti.",
+    "17 evidenze negli ultimi 45 giorni contro 10 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +33 (scala da -100 a +100)."
+    "Momentum calcolato: +26 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -269,9 +269,9 @@
     }
    ],
    "baseline": {
-    "momentum": 33,
-    "recent": 18,
-    "previous": 9,
+    "momentum": 26,
+    "recent": 17,
+    "previous": 10,
     "evidence_30": 13
    }
   },

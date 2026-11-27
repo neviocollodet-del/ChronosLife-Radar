@@ -6,19 +6,19 @@
  "items": [
   {
    "topic": "agentic",
-   "evidence_count": 1119,
+   "evidence_count": 1125,
    "independent_source_labels": 4,
    "recent_count": 740,
-   "previous_count": 379,
+   "previous_count": 385,
    "momentum": 32,
    "score_status": "ok"
   },
   {
    "topic": "AI agent",
-   "evidence_count": 802,
+   "evidence_count": 804,
    "independent_source_labels": 3,
-   "recent_count": 401,
-   "previous_count": 401,
+   "recent_count": 400,
+   "previous_count": 404,
    "momentum": 0,
    "score_status": "ok"
   },
@@ -42,11 +42,11 @@
   },
   {
    "topic": "fine-tuning",
-   "evidence_count": 313,
+   "evidence_count": 312,
    "independent_source_labels": 4,
    "recent_count": 291,
-   "previous_count": 22,
-   "momentum": 86,
+   "previous_count": 21,
+   "momentum": 87,
    "score_status": "ok"
   },
   {
@@ -62,9 +62,9 @@
    "topic": "humanoid",
    "evidence_count": 136,
    "independent_source_labels": 3,
-   "recent_count": 104,
-   "previous_count": 32,
-   "momentum": 53,
+   "recent_count": 103,
+   "previous_count": 33,
+   "momentum": 51,
    "score_status": "ok"
   },
   {

@@ -6,20 +6,20 @@
  "items": [
   {
    "topic": "agentic",
-   "evidence_count": 4020,
+   "evidence_count": 4023,
    "independent_source_labels": 4,
-   "recent_count": 2062,
-   "previous_count": 1958,
+   "recent_count": 2068,
+   "previous_count": 1955,
    "momentum": 3,
    "score_status": "ok"
   },
   {
    "topic": "AI agent",
-   "evidence_count": 3502,
+   "evidence_count": 3504,
    "independent_source_labels": 4,
-   "recent_count": 1571,
-   "previous_count": 1931,
-   "momentum": -10,
+   "recent_count": 1566,
+   "previous_count": 1938,
+   "momentum": -11,
    "score_status": "ok"
   },
   {
@@ -33,10 +33,10 @@
   },
   {
    "topic": "multimodal",
-   "evidence_count": 638,
+   "evidence_count": 636,
    "independent_source_labels": 4,
-   "recent_count": 455,
-   "previous_count": 183,
+   "recent_count": 454,
+   "previous_count": 182,
    "momentum": 43,
    "score_status": "ok"
   },
@@ -51,11 +51,11 @@
   },
   {
    "topic": "fine-tuning",
-   "evidence_count": 543,
+   "evidence_count": 542,
    "independent_source_labels": 4,
    "recent_count": 357,
-   "previous_count": 186,
-   "momentum": 31,
+   "previous_count": 185,
+   "momentum": 32,
    "score_status": "ok"
   },
   {
@@ -71,8 +71,8 @@
    "topic": "open-source model",
    "evidence_count": 58,
    "independent_source_labels": 1,
-   "recent_count": 32,
-   "previous_count": 26,
+   "recent_count": 31,
+   "previous_count": 27,
    "momentum": null,
    "score_status": "dati insufficienti"
   },

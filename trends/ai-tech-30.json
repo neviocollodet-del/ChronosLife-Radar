@@ -2,7 +2,7 @@
  "sector_id": "ai-tech",
  "window_days": 30,
  "data_status": "ok",
- "items_scanned": 1527,
+ "items_scanned": 1526,
  "items": [
   {
    "topic": "reasoning",
@@ -15,54 +15,54 @@
   },
   {
    "topic": "agentic",
-   "evidence_count": 608,
+   "evidence_count": 607,
    "independent_source_labels": 4,
-   "recent_count": 449,
-   "previous_count": 159,
-   "momentum": 48,
+   "recent_count": 452,
+   "previous_count": 155,
+   "momentum": 49,
    "score_status": "ok"
   },
   {
    "topic": "multimodal",
-   "evidence_count": 349,
-   "independent_source_labels": 4,
-   "recent_count": 342,
-   "previous_count": 7,
-   "momentum": 96,
-   "score_status": "ok"
-  },
-  {
-   "topic": "AI agent",
-   "evidence_count": 282,
+   "evidence_count": 348,
    "independent_source_labels": 3,
-   "recent_count": 161,
-   "previous_count": 121,
-   "momentum": 14,
+   "recent_count": 342,
+   "previous_count": 6,
+   "momentum": 97,
    "score_status": "ok"
   },
   {
    "topic": "fine-tuning",
    "evidence_count": 282,
    "independent_source_labels": 4,
-   "recent_count": 276,
-   "previous_count": 6,
-   "momentum": 96,
+   "recent_count": 273,
+   "previous_count": 9,
+   "momentum": 94,
+   "score_status": "ok"
+  },
+  {
+   "topic": "AI agent",
+   "evidence_count": 275,
+   "independent_source_labels": 3,
+   "recent_count": 158,
+   "previous_count": 117,
+   "momentum": 15,
    "score_status": "ok"
   },
   {
    "topic": "robotics",
    "evidence_count": 156,
    "independent_source_labels": 3,
-   "recent_count": 129,
-   "previous_count": 27,
-   "momentum": 65,
+   "recent_count": 128,
+   "previous_count": 28,
+   "momentum": 64,
    "score_status": "ok"
   },
   {
    "topic": "humanoid",
-   "evidence_count": 94,
+   "evidence_count": 93,
    "independent_source_labels": 3,
-   "recent_count": 81,
+   "recent_count": 80,
    "previous_count": 13,
    "momentum": 72,
    "score_status": "ok"
