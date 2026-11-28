@@ -15,19 +15,19 @@
   },
   {
    "topic": "agentic",
-   "evidence_count": 607,
+   "evidence_count": 606,
    "independent_source_labels": 4,
-   "recent_count": 452,
-   "previous_count": 155,
-   "momentum": 49,
+   "recent_count": 455,
+   "previous_count": 151,
+   "momentum": 50,
    "score_status": "ok"
   },
   {
    "topic": "multimodal",
-   "evidence_count": 348,
+   "evidence_count": 349,
    "independent_source_labels": 3,
-   "recent_count": 342,
-   "previous_count": 6,
+   "recent_count": 344,
+   "previous_count": 5,
    "momentum": 97,
    "score_status": "ok"
   },
@@ -42,29 +42,29 @@
   },
   {
    "topic": "AI agent",
-   "evidence_count": 275,
+   "evidence_count": 272,
    "independent_source_labels": 3,
    "recent_count": 158,
-   "previous_count": 117,
-   "momentum": 15,
+   "previous_count": 114,
+   "momentum": 16,
    "score_status": "ok"
   },
   {
    "topic": "robotics",
-   "evidence_count": 156,
+   "evidence_count": 153,
    "independent_source_labels": 3,
-   "recent_count": 128,
-   "previous_count": 28,
-   "momentum": 64,
+   "recent_count": 127,
+   "previous_count": 26,
+   "momentum": 66,
    "score_status": "ok"
   },
   {
    "topic": "humanoid",
-   "evidence_count": 93,
+   "evidence_count": 94,
    "independent_source_labels": 3,
    "recent_count": 80,
-   "previous_count": 13,
-   "momentum": 72,
+   "previous_count": 14,
+   "momentum": 70,
    "score_status": "ok"
   },
   {

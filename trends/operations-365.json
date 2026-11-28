@@ -8,17 +8,17 @@
    "topic": "supply chain",
    "evidence_count": 717,
    "independent_source_labels": 2,
-   "recent_count": 271,
-   "previous_count": 446,
+   "recent_count": 272,
+   "previous_count": 445,
    "momentum": -24,
    "score_status": "ok"
   },
   {
    "topic": "logistics",
-   "evidence_count": 142,
+   "evidence_count": 143,
    "independent_source_labels": 2,
    "recent_count": 57,
-   "previous_count": 85,
+   "previous_count": 86,
    "momentum": -20,
    "score_status": "ok"
   },

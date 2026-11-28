@@ -1,5 +1,5 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "generated_by": "regole",
  "visions": [
   {
@@ -135,9 +135,9 @@
   {
    "headline": "supply chain: in crescita",
    "facts": [
-    "74 evidenze negli ultimi 45 giorni contro 48 nei 45 precedenti.",
+    "74 evidenze negli ultimi 45 giorni contro 46 nei 45 precedenti.",
     "Fonti distinte che ne parlano: 2.",
-    "Momentum calcolato: +21 (scala da -100 a +100)."
+    "Momentum calcolato: +23 (scala da -100 a +100)."
    ],
    "hypotheses": [
     "Se il ritmo di crescita continua, l'argomento potrebbe consolidarsi nelle prossime settimane (ipotesi, non previsione)."
@@ -191,10 +191,10 @@
     }
    ],
    "baseline": {
-    "momentum": 21,
+    "momentum": 23,
     "recent": 74,
-    "previous": 48,
-    "evidence_30": 49
+    "previous": 46,
+    "evidence_30": 48
    }
   },
   {
@@ -227,7 +227,7 @@
     "momentum": null,
     "recent": 19,
     "previous": 13,
-    "evidence_30": 16
+    "evidence_30": 15
    }
   },
   {
